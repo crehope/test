@@ -1,0 +1,14 @@
+_id: env_468b639424754f15be2d1192b1c2efa0
+type: Environment
+parentId: env_71453654b07a544c1b7962ce0f630aae8b05300a
+modified: 1625213945309
+created: 1625213874546
+name: iset
+data:
+  local: http://localhost:8080/iset
+dataPropertyOrder:
+  "&":
+    - local
+color: null
+isPrivate: false
+metaSortKey: 1625213874546
