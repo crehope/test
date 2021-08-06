@@ -1,9 +1,9 @@
 _id: req_c8af0b6a5a6a461890525834458a8d14
 type: Request
 parentId: fld_0e806d548d49448aa77991d599b6a187
-modified: 1628239512460
+modified: 1628239771313
 created: 1628239492413
-url: http://localhost:8080/iset/my/email-change/20bb6081-6a4d-4ed3-8dd7-fad5938ee118
+url: "{{ _.local }}/my/email-change/20bb6081-6a4d-4ed3-8dd7-fad5938ee118"
 name: 이메일 변경
 description: ""
 method: PUT

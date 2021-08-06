@@ -1,9 +1,9 @@
 _id: req_22cbf1d1c4214da6a80beda4a8b9f03e
 type: Request
 parentId: fld_0e806d548d49448aa77991d599b6a187
-modified: 1628239549704
+modified: 1628239774472
 created: 1628239533215
-url: http://localhost:8080/iset/my/mobile-change/20bb6081-6a4d-4ed3-8dd7-fad5938ee118
+url: "{{ _.local }}/my/mobile-change/20bb6081-6a4d-4ed3-8dd7-fad5938ee118"
 name: 전화번호 변경
 description: ""
 method: PUT
