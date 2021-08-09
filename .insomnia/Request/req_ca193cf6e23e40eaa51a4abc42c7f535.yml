@@ -1,0 +1,35 @@
+_id: req_ca193cf6e23e40eaa51a4abc42c7f535
+type: Request
+parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
+modified: 1628499486188
+created: 1628151735479
+url: "{{ _.local }}/inst/coupon-management/save/inst1"
+name: 쿠폰생성
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"couponNm":"유비온학원 구로2호점",
+    	"discountAmount": 200000,
+    	"discountCd":"010",
+    	"validStartDt":"2021-07-14T00:00:00.000+00:00",
+    	"validEndDt":"2021-08-08T00:00:00.000+00:00",
+    	"couponComment":"유비온학원 구로2호점에서 지급한 쿠폰",
+    	"instId": "inst1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0a35b047f46e485084f24d7104b454d3
+authentication: {}
+metaSortKey: -1628151735479
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
