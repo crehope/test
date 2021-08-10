@@ -1,0 +1,36 @@
+_id: req_64667bd02d404248a86c340612293d68
+type: Request
+parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
+modified: 1628581939286
+created: 1628571826589
+url: "{{ _.local }}/inst/coupon-management/save/inst1"
+name: 쿠폰수정
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"couponTpManageId": "0001",
+    	"couponNm": "유비온학원 구로점",
+    	"discountAmount": 350000,
+    	"discountCd": "010",
+    	"validStartDt": "2021-08-10T00:00:00.000+00:00",
+    	"validEndDt": "2021-08-16T00:00:00.000+00:00",
+    	"couponComment": "유비온학원 구로점에서 지급한 쿠폰",
+    	"instId": "inst1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c81aa29226404d11851fd9d82fbe5abd
+authentication: {}
+metaSortKey: -1628571826589
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
