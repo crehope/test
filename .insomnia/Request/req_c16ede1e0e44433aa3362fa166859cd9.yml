@@ -1,0 +1,33 @@
+_id: req_c16ede1e0e44433aa3362fa166859cd9
+type: Request
+parentId: fld_3ad794feee94426e93588f6624f696b4
+modified: 1628660501510
+created: 1628645364540
+url: "{{ _.local }}/inst/tution/2eecf0c2-8e54-4423-b71a-b7bc7962a2ca/save"
+name: 학원비 수정
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"tutionManageId" : "2eecf0c2-8e54-4423-b71a-b7bc7962a2ca",
+    		"tutionNm" : "학원수정되었습니다.",
+    		"tutionContent" : "수정되었음.",
+    		"tution" : "200000",
+    		"isActive" : "Y"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+authentication: {}
+metaSortKey: -1628303531962
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
