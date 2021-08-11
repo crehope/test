@@ -1,17 +1,17 @@
-_id: req_e75d9dc7671242ccaebd7185c3dfe985
+_id: req_5c31654b96614e22a782fdc266ed03bc
 type: Request
-parentId: fld_91f35a0604b24689a4d1d20fb0f305c6
-modified: 1628661443222
-created: 1628238229180
-url: "{{ _.local }}/api/cls/consult-manage/sgsgsdgsg"
-name: 상담내역
+parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
+modified: 1628654824185
+created: 1628647738952
+url: "{{ _.local }}/users/member?userNm=ddd&mobileNo=111"
+name: 회원 조회(결과 존재)
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1628238229180
+metaSortKey: -1628647738952
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

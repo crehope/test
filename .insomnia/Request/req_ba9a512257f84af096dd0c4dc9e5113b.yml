@@ -1,17 +1,17 @@
-_id: req_e75d9dc7671242ccaebd7185c3dfe985
+_id: req_ba9a512257f84af096dd0c4dc9e5113b
 type: Request
-parentId: fld_91f35a0604b24689a4d1d20fb0f305c6
-modified: 1628661443222
-created: 1628238229180
-url: "{{ _.local }}/api/cls/consult-manage/sgsgsdgsg"
-name: 상담내역
+parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
+modified: 1628574162153
+created: 1628572846518
+url: "{{ _.local }}/users/find/id?userNm=ddd&mobileNo=111"
+name: 아이디 찾기(성공)
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1628238229180
+metaSortKey: -1628532146099.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
