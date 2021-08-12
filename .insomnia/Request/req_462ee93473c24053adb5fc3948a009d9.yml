@@ -1,7 +1,7 @@
 _id: req_462ee93473c24053adb5fc3948a009d9
 type: Request
 parentId: fld_462a2f014d9d470a982d25d4128654d6
-modified: 1628673722774
+modified: 1628759789896
 created: 1628672689761
 url: "{{ _.local }}/cls/sfgsfgfsgs/delete"
 name: 클래스 삭제
@@ -19,7 +19,7 @@ headers:
     value: application/json
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1628431677714
+metaSortKey: -1628431677718.6875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

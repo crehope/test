@@ -1,9 +1,9 @@
 _id: req_427a663984af4aa29509839b2a841381
 type: Request
 parentId: fld_462a2f014d9d470a982d25d4128654d6
-modified: 1628757902587
+modified: 1628758321016
 created: 1628672653351
-url: "{{ _.local }}/cls/fdg355trrterr"
+url: "{{ _.local }}/cls/fdg355trrterr/sgsgsdgsg"
 name: 클래스 목록 조회하기
 description: 해당 학원 아이디로 클래스 목록을 조회한다
 method: GET
