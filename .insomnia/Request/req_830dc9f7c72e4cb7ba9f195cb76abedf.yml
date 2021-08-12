@@ -1,11 +1,12 @@
 _id: req_830dc9f7c72e4cb7ba9f195cb76abedf
 type: Request
 parentId: fld_3ad794feee94426e93588f6624f696b4
-modified: 1628647677308
+modified: 1628757884181
 created: 1628498784135
 url: "{{ _.local }}/inst/tution/1111"
-name: 학원비 조회하기
-description: ""
+name: 학원비 목록 조회하기
+description: |
+  학원아이디로 해당 학원의 학원비 목록을 조회한다
 method: GET
 body:
   mimeType: application/json
