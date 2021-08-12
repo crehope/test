@@ -1,7 +1,7 @@
 _id: req_462ee93473c24053adb5fc3948a009d9
 type: Request
 parentId: fld_462a2f014d9d470a982d25d4128654d6
-modified: 1628673629380
+modified: 1628673722774
 created: 1628672689761
 url: "{{ _.local }}/cls/sfgsfgfsgs/delete"
 name: 클래스 삭제
