@@ -1,25 +1,24 @@
-_id: req_ba9a512257f84af096dd0c4dc9e5113b
+_id: req_c5cec7675f404a3c841dacf075d38f66
 type: Request
-parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1628752231510
-created: 1628572846518
-url: "{{ _.local }}/users/find/id"
-name: 아이디 찾기(성공)
+parentId: fld_e9a1f0c327fe4d49a57d596b07da74b8
+modified: 1628759008610
+created: 1628758948607
+url: "{{ _.local }}/feed/class/write"
+name: 피드 - 글 쓰기
 description: ""
 method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"userNm": "ddd",
-    	"mobileNo": "111"
+    	"userId": "02df411t-ba21-4e04-be03-04c8055f5b94"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1628532146099.5
+metaSortKey: -1628758948608
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

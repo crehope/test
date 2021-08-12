@@ -1,7 +1,7 @@
 _id: req_7e95270659d74d5f8c6c15c62cee1fa0
 type: Request
 parentId: fld_0e806d548d49448aa77991d599b6a187
-modified: 1628499980029
+modified: 1628750343486
 created: 1628239459136
 url: "{{ _.local }}/my/password-change/20bb6081-6a4d-4ed3-8dd7-fad5938ee118"
 name: 비밀번호 변경
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    		"currentPw": "temp_password1",
+    		"currentPw": "test0812",
     		"pw": "testPw1122"
     }
 parameters: []

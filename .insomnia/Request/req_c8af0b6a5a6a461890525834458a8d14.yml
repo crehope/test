@@ -1,7 +1,7 @@
 _id: req_c8af0b6a5a6a461890525834458a8d14
 type: Request
 parentId: fld_0e806d548d49448aa77991d599b6a187
-modified: 1628562641355
+modified: 1628750611610
 created: 1628239492413
 url: "{{ _.local }}/my/email-change/20bb6081-6a4d-4ed3-8dd7-fad5938ee118"
 name: 이메일 변경
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    		"email": "test111E@gmail.com"
+    		"email": "test0812E@gmail.com"
     }
 parameters: []
 headers:

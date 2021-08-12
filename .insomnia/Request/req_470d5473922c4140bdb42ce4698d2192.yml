@@ -1,12 +1,12 @@
 _id: req_470d5473922c4140bdb42ce4698d2192
 type: Request
 parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
-modified: 1628585661274
+modified: 1628735055377
 created: 1628585085155
 url: https://sens.apigw.ntruss.com/sms/v2/services/ncp:sms:kr:266503594836:baecom_dev/messages
 name: 인증 요청
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-

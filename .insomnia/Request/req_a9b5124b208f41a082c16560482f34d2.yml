@@ -1,7 +1,7 @@
 _id: req_a9b5124b208f41a082c16560482f34d2
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1628492781423
+modified: 1628759270488
 created: 1628492768045
 url: http://localhost:8080/iset/inst/inst1/main
 name: 학원 메인
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1628492768045
+metaSortKey: -1628671677461
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
