@@ -1,9 +1,9 @@
 _id: req_cda602715ec44c9daec92e10e9af91b2
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1628497071031
+modified: 1628757605802
 created: 1628491211642
-url: "{{ _.local }}/inst/coupon-management/inst1"
+url: "{{ _.local }}/api/inst/coupon-management/inst1"
 name: 쿠폰목록조회
 description: ""
 method: GET
