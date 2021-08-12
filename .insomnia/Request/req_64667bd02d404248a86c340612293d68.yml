@@ -1,7 +1,7 @@
 _id: req_64667bd02d404248a86c340612293d68
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1628581939286
+modified: 1628732385100
 created: 1628571826589
 url: "{{ _.local }}/inst/coupon-management/save/inst1"
 name: 쿠폰수정
@@ -11,13 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"couponTpManageId": "0001",
-    	"couponNm": "유비온학원 구로점",
-    	"discountAmount": 350000,
+    	"couponTpManageId": "00d93e33-0e6c-4a5e-afba-5e61a976dea9",
+    	"couponNm": "유비온학원 대방점",
+    	"discountAmount": 456000,
     	"discountCd": "010",
-    	"validStartDt": "2021-08-10T00:00:00.000+00:00",
-    	"validEndDt": "2021-08-16T00:00:00.000+00:00",
-    	"couponComment": "유비온학원 구로점에서 지급한 쿠폰",
+    	"validDtCd":"010",
+    	"validStartDt": "2021-08-12T00:00:00.000+00:00",
+    	"validEndDt": "2021-08-19T00:00:00.000+00:00",
+    	"couponComment": "유비온학원 대방점에서 지급한 쿠폰",
     	"instId": "inst1"
     }
 parameters: []
