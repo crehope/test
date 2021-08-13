@@ -1,9 +1,9 @@
 _id: req_2627b8760a3340b5b4c52402305abd4d
 type: Request
-parentId: fld_462a2f014d9d470a982d25d4128654d6
-modified: 1628672698243
+parentId: fld_19d1c5fde35f469082377161614fde3e
+modified: 1628813337145
 created: 1628672670897
-url: "{{ _.local }}/inst/tution/1111/2eecf0c2-8e54-4423-b71a-b7bc7962a2ca"
+url: "{{ _.local }}/inst/cls/"
 name: 클래스 상세조회하기
 description: ""
 method: GET
@@ -16,7 +16,7 @@ headers:
     value: application/json
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1628431677726.5
+metaSortKey: -1628765614977.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
