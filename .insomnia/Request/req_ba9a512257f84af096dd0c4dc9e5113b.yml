@@ -1,0 +1,21 @@
+_id: req_ba9a512257f84af096dd0c4dc9e5113b
+type: Request
+parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
+modified: 1628574162153
+created: 1628572846518
+url: "{{ _.local }}/users/find/id?userNm=ddd&mobileNo=111"
+name: 아이디 찾기(성공)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628532146099.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_c4efdf58f13249129318a39c8e9a2ff0
+type: Request
+parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
+modified: 1628649393994
+created: 1628649180217
+url: "{{ _.local }}/users/member?userNm=김빡빡&mobileNo=10201"
+name: 회원 조회(결과 없음)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628616412053.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,26 +1,26 @@
-_id: req_7e95270659d74d5f8c6c15c62cee1fa0
+_id: req_0ba1187e52a946c4b51319ec092e4a08
 type: Request
-parentId: fld_0e806d548d49448aa77991d599b6a187
-modified: 1628499980029
-created: 1628239459136
-url: "{{ _.local }}/my/password-change/20bb6081-6a4d-4ed3-8dd7-fad5938ee118"
-name: 비밀번호 변경
+parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
+modified: 1628732418504
+created: 1628580544206
+url: "{{ _.local }}/inst/coupon-management/delete/inst1"
+name: 쿠폰삭제
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    		"currentPw": "temp_password1",
-    		"pw": "testPw1122"
+    	"couponTpManageId": "00d93e33-0e6c-4a5e-afba-5e61a976dea9",
+    	"instId": "inst1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_3abcaf3825e641239c3eac42fbd38390
+    id: pair_df51f974d58c4338ad7d4ee03688d527
 authentication: {}
-metaSortKey: -1628239459136
+metaSortKey: -1628580544206
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

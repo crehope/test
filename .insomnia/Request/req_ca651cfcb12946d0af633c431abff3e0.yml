@@ -1,0 +1,31 @@
+_id: req_ca651cfcb12946d0af633c431abff3e0
+type: Request
+parentId: fld_3ad794feee94426e93588f6624f696b4
+modified: 1628645533216
+created: 1628495936385
+url: "{{ _.local }}/inst/addTution"
+name: 학원비 생성하기
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"tutionNm": "a학원4",
+    		"tution": "232132", 
+    		"tutionContent" : "대답!2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+authentication: {}
+metaSortKey: -1628495750290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

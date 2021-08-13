@@ -1,0 +1,21 @@
+_id: req_8f95f074aee948f0ab1e8be7587d8028
+type: Request
+parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
+modified: 1628573162373
+created: 1628571524154
+url: "{{ _.local }}/users/find/id?userNm=김철수&mobileNo=01048876940"
+name: 아이디 찾기(실패)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628532146049.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
