@@ -1,9 +1,9 @@
 _id: fld_eb75e6abf13e42ceaa8793219f2ef54f
 type: RequestGroup
 parentId: fld_d8d41346f9b2484298ff32408ed34856
-modified: 1628484615581
+modified: 1628840607889
 created: 1628484615581
-name: 쿠폰
+name: 쿠폰관리
 description: ""
 environment: {}
 environmentPropertyOrder: null

@@ -1,7 +1,7 @@
 _id: req_0ba1187e52a946c4b51319ec092e4a08
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1628732418504
+modified: 1628843477043
 created: 1628580544206
 url: "{{ _.local }}/inst/coupon-management/delete/inst1"
 name: 쿠폰삭제
