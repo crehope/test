@@ -1,0 +1,21 @@
+_id: req_29a6332e660947749ac082ec55bcecf5
+type: Request
+parentId: fld_237624a463a04b099b140ab7576ac59f
+modified: 1629190847597
+created: 1629190844146
+url: "{{ _.local }}/api/users/b7e2b4d1-e8ef-4d6c-a8c1-c8abab03106b/relation/inst"
+name: api - 나의 학원 등록현황
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628670575763
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
