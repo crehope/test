@@ -1,0 +1,21 @@
+_id: req_1b05513281bb4381b3c482de1f303916
+type: Request
+parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
+modified: 1629192458984
+created: 1629191544492
+url: "{{ _.inst }}/inst/coupon-management/issued/0001"
+name: 쿠폰발급내역
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629191544492
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
