@@ -1,0 +1,21 @@
+_id: req_7e935db57aaa441e85902630b8dcfcde
+type: Request
+parentId: fld_237624a463a04b099b140ab7576ac59f
+modified: 1629251662764
+created: 1629251631904
+url: "{{ _.local }}/api/users/b7e2b4d1-e8ef-4d6c-a8c1-c8abab03106b/relation"
+name: api - 관계 설정
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629251631904
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_2fc404a577364834bbc0d5da0f4403fb
+type: Request
+parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
+modified: 1629274658385
+created: 1629274653079
+url: "{{ _.local }}/api/users/662984/verify/662984"
+name: api - 인증값 확인 (일치)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629261296176
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
