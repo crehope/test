@@ -1,7 +1,7 @@
 _id: req_136d277b29134b939819666521a8a70d
 type: Request
 parentId: fld_237624a463a04b099b140ab7576ac59f
-modified: 1629192375433
+modified: 1629359667774
 created: 1629192368808
 url: "{{ _.local }}/api/users/b7e2b4d1-e8ef-4d6c-a8c1-c8abab03106b/relation/history"
 name: api - 관계 히스토리
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1628670575775.5
+metaSortKey: -1628670575713
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
