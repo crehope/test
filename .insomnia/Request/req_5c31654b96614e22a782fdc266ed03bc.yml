@@ -1,15 +1,23 @@
 _id: req_5c31654b96614e22a782fdc266ed03bc
 type: Request
 parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
-modified: 1628654824185
+modified: 1629337163933
 created: 1628647738952
-url: "{{ _.local }}/users/member?userNm=ddd&mobileNo=111"
-name: 회원 조회(결과 존재)
+url: "{{ _.local }}/api/users/member"
+name: api - 회원 조회(결과 존재)
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userNm": "asdf",
+    	"mobileNo": "123"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1628647738952
 isPrivate: false
