@@ -1,7 +1,7 @@
 _id: req_edf45c3469d141aeb812c4dcf037b0d7
 type: Request
-parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
-modified: 1629264827871
+parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
+modified: 1629274754786
 created: 1629264517558
 url: "{{ _.local }}/api/users/certification/01029945130"
 name: api - SMS 인증 요청
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1629264517600
+metaSortKey: -1628532146149.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
