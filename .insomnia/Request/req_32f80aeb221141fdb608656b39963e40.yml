@@ -1,9 +1,9 @@
 _id: req_32f80aeb221141fdb608656b39963e40
 type: Request
 parentId: fld_237624a463a04b099b140ab7576ac59f
-modified: 1629189664996
+modified: 1629434976245
 created: 1628840330992
-url: "{{ _.local }}/api/users/b7e2b4d1-e8ef-4d6c-a8c1-c8abab03106b/relation/family"
+url: "{{ _.local }}/users/b7e2b4d1-e8ef-4d6c-a8c1-c8abab03106b/relation/family"
 name: api - 가족 관계 목록
 description: ""
 method: GET

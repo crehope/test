@@ -1,9 +1,9 @@
 _id: req_9f9f490a99944dadbfb9a3db171e1f3e
 type: Request
 parentId: fld_0e806d548d49448aa77991d599b6a187
-modified: 1629350631496
+modified: 1629434963370
 created: 1629338585047
-url: "{{ _.local }}/api/users/my/user-info/cf87bb60-5e06-4e9d-9151-cc66cc521966"
+url: "{{ _.local }}/users/my/user-info/cf87bb60-5e06-4e9d-9151-cc66cc521966"
 name: api - 유저 인포 (결과 존재)
 description: ""
 method: GET

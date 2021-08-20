@@ -1,9 +1,9 @@
 _id: req_5bfafa5961e04bd695f218855f4298e7
 type: Request
 parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1629274828782
+modified: 1629434935550
 created: 1629274781050
-url: "{{ _.local }}/api/users/662984/verify/662984"
+url: "{{ _.local }}/users/662984/verify/662984"
 name: api - SMS 인증값 확인 (일치)
 description: ""
 method: GET
