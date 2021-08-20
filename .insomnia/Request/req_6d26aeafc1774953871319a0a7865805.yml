@@ -1,10 +1,9 @@
 _id: req_6d26aeafc1774953871319a0a7865805
 type: Request
 parentId: fld_4e400608c0d04243a8db35828b9a6a11
-modified: 1629351060141
+modified: 1629435908109
 created: 1628840260690
-url: "{{ _.local
-  }}/api/cls/consult-manage/fdg355trrterr/43gfdgdfgfd/35hdhdfhdfhdfhdfh"
+url: "{{ _.local }}/cls/consult-manage/fdg355trrterr/43gfdgdfgfd/35hdhdfhdfhdfhdfh"
 name: 상담상세
 description: ""
 method: GET
