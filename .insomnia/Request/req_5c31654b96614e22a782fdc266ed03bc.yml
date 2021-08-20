@@ -1,10 +1,10 @@
 _id: req_5c31654b96614e22a782fdc266ed03bc
 type: Request
 parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
-modified: 1629337163933
+modified: 1629356962516
 created: 1628647738952
 url: "{{ _.local }}/api/users/member"
-name: api - 회원 조회(결과 존재)
+name: api - 회원 조회
 description: ""
 method: GET
 body:

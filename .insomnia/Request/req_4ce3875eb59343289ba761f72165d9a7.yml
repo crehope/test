@@ -1,11 +1,11 @@
 _id: req_4ce3875eb59343289ba761f72165d9a7
 type: Request
 parentId: fld_4e400608c0d04243a8db35828b9a6a11
-modified: 1629346934894
+modified: 1629353825007
 created: 1628840260687
 url: "{{ _.local
   }}/api/cls/consult-manage/fdg355trrterr?page=0&size=10&sort=created,desc"
-name: 상담내역
+name: 상담내역(상담요청)
 description: ""
 method: GET
 body: {}
@@ -16,7 +16,7 @@ metaSortKey: -1628238229180
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
-settingDisableRenderRequestBody: false
+settingDisableRenderRequestBody: true
 settingEncodeUrl: true
 settingRebuildPath: true
 settingFollowRedirects: global

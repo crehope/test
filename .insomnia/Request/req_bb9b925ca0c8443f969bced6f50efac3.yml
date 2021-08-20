@@ -1,18 +1,19 @@
-_id: req_6d26aeafc1774953871319a0a7865805
+_id: req_bb9b925ca0c8443f969bced6f50efac3
 type: Request
 parentId: fld_4e400608c0d04243a8db35828b9a6a11
-modified: 1629351060141
-created: 1628840260690
+modified: 1629361260505
+created: 1629353801695
 url: "{{ _.local
-  }}/api/cls/consult-manage/fdg355trrterr/43gfdgdfgfd/35hdhdfhdfhdfhdfh"
-name: 상담상세
+  }}/api/cls/consult-manage/fdg355trrterr/complete?page=0&size=10&sort=created,\
+  desc"
+name: 상담내역(상담완료)
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1626723633940
+metaSortKey: -1628194982379.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
