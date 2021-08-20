@@ -1,10 +1,10 @@
 _id: req_19c32803eb7d44df971ca9e2f1b7b82b
 type: Request
 parentId: fld_4e400608c0d04243a8db35828b9a6a11
-modified: 1629361215220
+modified: 1629435904179
 created: 1629361080011
 url: "{{ _.local
-  }}/api/cls/consult-manage/fdg355trrterr/all?page=0&size=10&sort=created,desc"
+  }}/cls/consult-manage/fdg355trrterr/all?page=0&size=10&sort=created,desc"
 name: 상담내역(전체조회)
 description: ""
 method: GET
