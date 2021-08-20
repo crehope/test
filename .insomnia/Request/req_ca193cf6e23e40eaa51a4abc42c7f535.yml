@@ -1,9 +1,9 @@
 _id: req_ca193cf6e23e40eaa51a4abc42c7f535
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1628845268603
+modified: 1629435657632
 created: 1628151735479
-url: "{{ _.local }}/api/inst/coupon-management/save/inst1"
+url: "{{ _.local }}/inst/coupon-management/save/inst1"
 name: 쿠폰생성
 description: ""
 method: POST

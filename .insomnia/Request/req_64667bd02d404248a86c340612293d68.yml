@@ -1,9 +1,10 @@
 _id: req_64667bd02d404248a86c340612293d68
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1628842892549
+modified: 1629435593973
 created: 1628571826589
-url: "{{ _.local }}/api/inst/coupon-management/save/inst1"
+url: "{{ _.local
+  }}/inst/coupon-management/save/inst1/00d93e33-0e6c-4a5e-afba-5e61a976dea9"
 name: 쿠폰수정
 description: ""
 method: PUT
@@ -12,13 +13,13 @@ body:
   text: |-
     {
     	"couponTpManageId": "00d93e33-0e6c-4a5e-afba-5e61a976dea9",
-    	"couponNm": "유비온학원 가산점",
+    	"couponNm": "유비온학원 가산디지털점",
     	"discountAmount": 789000,
     	"discountCd": "010",
     	"validDtCd":"010",
     	"validStartDt": "2021-08-12T00:00:00.000+00:00",
     	"validEndDt": "2021-08-19T00:00:00.000+00:00",
-    	"couponComment": "유비온학원 가산점에서 지급한 쿠폰",
+    	"couponComment": "유비온학원 가산디지털점에서 지급한 쿠폰",
     	"instId": "inst1"
     }
 parameters: []
