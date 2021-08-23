@@ -1,0 +1,33 @@
+_id: req_eef50ede87654819984b23ff30a77c27
+type: Request
+parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
+modified: 1629701046007
+created: 1629697763516
+url: "{{ _.local }}/cls/consult-manage/create"
+name: 상담신청하기
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+       "userId": "ba6c3dd7-32de-4964-a317-e38fc2f25400",
+    	 "instId": "fdg355trrterr",
+       "classId": "dsfwsfgdfg",
+    	 "userTelNo": "01042735689",
+       "question": "Is this a good institute?"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+authentication: {}
+metaSortKey: -1628671677411
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

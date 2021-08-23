@@ -1,9 +1,9 @@
 _id: req_19c32803eb7d44df971ca9e2f1b7b82b
 type: Request
 parentId: fld_4e400608c0d04243a8db35828b9a6a11
-modified: 1629448501296
+modified: 1629684315538
 created: 1629361080011
-url: "{{ _.local }}/cls/consult-manage/fdg355trrterr/all?pageNo=2"
+url: "{{ _.local }}/cls/consult-manage/fdg355trrterr/all?pageNo=0"
 name: 상담내역(전체조회)
 description: ""
 method: GET
