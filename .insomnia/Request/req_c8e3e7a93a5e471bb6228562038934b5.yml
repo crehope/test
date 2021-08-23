@@ -1,0 +1,29 @@
+_id: req_c8e3e7a93a5e471bb6228562038934b5
+type: Request
+parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
+modified: 1629708309640
+created: 1629708286063
+url: "{{ _.local }}/users/find/pwd/certification"
+name: api - 비밀번호 찾기 SMS 전송
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userNm": "유현지",
+    	"mobileNo": "01029945130"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1628513948094.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
