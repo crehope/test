@@ -1,0 +1,32 @@
+_id: req_92d28efc2d5540fab4f06a3cd7029994
+type: Request
+parentId: fld_91f35a0604b24689a4d1d20fb0f305c6
+modified: 1629707358365
+created: 1629707330039
+url: "{{ _.local }}/cls/consult-manage/reply"
+name: 상담답변하기
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    		"consultManageId": "35hdhdfhdfhdfhdfh",
+    	  "classId":"43gfdgdfgfd",
+    	  "consultUserId":"4a2e32c0-a1dc-48a1-aae1-4f7e1b129e2e",
+    	  "consultContent": "We must not allow other people's limited perceptions to define us."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+authentication: {}
+metaSortKey: -1626723633890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
