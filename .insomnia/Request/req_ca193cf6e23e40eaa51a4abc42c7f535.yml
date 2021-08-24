@@ -1,7 +1,7 @@
 _id: req_ca193cf6e23e40eaa51a4abc42c7f535
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1629437482544
+modified: 1629768793658
 created: 1628151735479
 url: "{{ _.local }}/inst/coupon-management/save/inst1"
 name: 쿠폰생성
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"couponNm":"유비온학원 구로디지털점",
-    	"discountAmount": 9512300,
+    	"discountAmount": 95123,
     	"discountCd":"010",
     	"validDtCd":"010",
     	"validStartDt":"2021-08-12T00:00:00.000+00:00",
