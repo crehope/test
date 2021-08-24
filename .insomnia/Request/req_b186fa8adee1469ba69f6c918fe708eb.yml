@@ -1,7 +1,7 @@
 _id: req_b186fa8adee1469ba69f6c918fe708eb
 type: Request
-parentId: fld_462a2f014d9d470a982d25d4128654d6
-modified: 1629767600461
+parentId: fld_fb18981e934d43b7ac0d93f14b3ea677
+modified: 1629770407538
 created: 1628759785108
 url: "{{ _.local }}/cls/222"
 name: 강사목록조회
