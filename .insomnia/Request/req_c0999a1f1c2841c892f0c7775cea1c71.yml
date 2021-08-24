@@ -1,22 +1,25 @@
-_id: req_427a663984af4aa29509839b2a841381
+_id: req_c0999a1f1c2841c892f0c7775cea1c71
 type: Request
-parentId: fld_19d1c5fde35f469082377161614fde3e
-modified: 1628813335639
-created: 1628672653351
-url: "{{ _.local }}/cls/fdg355trrterr/sgsgsdgsg"
-name: 클래스 목록 조회하기
-description: 해당 학원 아이디로 클래스 목록을 조회한다
-method: GET
+parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
+modified: 1629275918642
+created: 1629275918642
+url: "{{ _.local }}/cls/sfgsfgfsgs/delete"
+name: 클래스 삭제
+description: ""
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    { 
+    		"isActive" : "N"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1628765615027.5
+metaSortKey: -1628765614877.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
