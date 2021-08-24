@@ -1,9 +1,9 @@
 _id: req_51c1930b2d9e4f4fb75765b694319418
 type: Request
 parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1629279484425
+modified: 1629434948507
 created: 1629276773665
-url: "{{ _.local }}/api/users/find/id/01029945130/verify/109286"
+url: "{{ _.local }}/users/find/id/01029945130/verify/109286"
 name: api - 아이디 찾기 인증 확인 (성공)
 description: ""
 method: GET

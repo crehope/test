@@ -1,10 +1,10 @@
-_id: req_ba9a512257f84af096dd0c4dc9e5113b
+_id: req_c8e3e7a93a5e471bb6228562038934b5
 type: Request
 parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1629434923831
-created: 1628572846518
-url: "{{ _.local }}/users/find/id"
-name: api - 아이디 찾기 SMS 전송 (성공)
+modified: 1629708309640
+created: 1629708286063
+url: "{{ _.local }}/users/find/pwd/certification"
+name: api - 비밀번호 찾기 SMS 전송
 description: ""
 method: GET
 body:
@@ -19,7 +19,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1628532146099.5
+metaSortKey: -1628513948094.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

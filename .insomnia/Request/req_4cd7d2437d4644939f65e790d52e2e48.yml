@@ -1,25 +1,25 @@
-_id: req_ba9a512257f84af096dd0c4dc9e5113b
+_id: req_4cd7d2437d4644939f65e790d52e2e48
 type: Request
 parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1629434923831
-created: 1628572846518
-url: "{{ _.local }}/users/find/id"
-name: api - 아이디 찾기 SMS 전송 (성공)
+modified: 1629708274418
+created: 1629684187191
+url: "{{ _.local }}/users/find/pwd"
+name: api - 비밀번호 찾기
 description: ""
 method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"userNm": "유현지",
-    	"mobileNo": "01029945130"
+    	"userInputId": "yoohyeonji",
+    	"userNm": "유현지"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1628532146099.5
+metaSortKey: -1628513948144.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
