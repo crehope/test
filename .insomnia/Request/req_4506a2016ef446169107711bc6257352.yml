@@ -1,0 +1,36 @@
+_id: req_4506a2016ef446169107711bc6257352
+type: Request
+parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
+modified: 1629766415011
+created: 1629275918617
+url: "{{ _.local }}/cls/save"
+name: 클래스 생성
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"classNm" : "유비온학원1",
+    		"onlineYn" : "Y",
+    		"fixed" : "0",
+    		"lecDay" : "월,화,수",
+    		"classStartDt" : "2021-09-01",
+    		"lecStartDt" : "am 06:55",
+    		"lecEndDt" : "am 07:30"
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+authentication: {}
+metaSortKey: -1628765615077.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

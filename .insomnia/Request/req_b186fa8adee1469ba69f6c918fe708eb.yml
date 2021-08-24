@@ -1,0 +1,23 @@
+_id: req_b186fa8adee1469ba69f6c918fe708eb
+type: Request
+parentId: fld_462a2f014d9d470a982d25d4128654d6
+modified: 1629767600461
+created: 1628759785108
+url: "{{ _.local }}/cls/222"
+name: 강사목록조회
+description: 해당 학원 아이디로 클래스 목록을 조회한다
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628431677717.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

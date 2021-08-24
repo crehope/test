@@ -1,12 +1,12 @@
-_id: req_a2c1c380c16c4979bdf9fe644e77a285
+_id: req_a6efb760ecab4c8bb0025c808cb9c457
 type: Request
-parentId: fld_19d1c5fde35f469082377161614fde3e
-modified: 1628813331408
-created: 1628671692120
-url: "{{ _.local }}/cls/save"
-name: 클래스 생성
+parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
+modified: 1629766411878
+created: 1629275918637
+url: "{{ _.local }}/cls/sfgsfgfsgs/save"
+name: 클래스 수정
 description: ""
-method: POST
+method: PUT
 body:
   mimeType: application/json
   text: |-
@@ -17,13 +17,8 @@ body:
     		"lecDay" : "월,화,수",
     		"classStartDt" : "2021-09-01",
     		"lecStartDt" : "am 06:55",
-    		"lecEndDt" : "am 07:30",
-    	
-    	
-    	
-    	
-    	
-    		"isActive" : "Y"
+    		"lecEndDt" : "am 07:30"
+    		
     }
 parameters: []
 headers:
@@ -31,7 +26,7 @@ headers:
     value: application/json
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1628765615077.5
+metaSortKey: -1628765614927.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

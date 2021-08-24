@@ -1,26 +1,23 @@
-_id: req_bf43e1dc712a4165b4811e556d0358bf
+_id: req_ef7f0096939e4179a97b86e9297044dd
 type: Request
-parentId: fld_19d1c5fde35f469082377161614fde3e
-modified: 1628813339028
-created: 1628672681017
-url: "{{ _.local }}/cls/sfgsfgfsgs/save"
-name: 클래스 수정
-description: ""
-method: PUT
+parentId: fld_10d9482607b941538e104d092fb161c9
+modified: 1629767094380
+created: 1629362664451
+url: "{{ _.local }}/inst/tuition-manage/1111"
+name: 학원비 목록 조회하기
+description: |
+  학원아이디로 해당 학원의 학원비 목록을 조회한다
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    		
-    		"isActive" : "Y"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1628765614927.5
+metaSortKey: -1628367604738
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

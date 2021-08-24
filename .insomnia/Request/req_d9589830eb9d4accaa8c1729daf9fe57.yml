@@ -1,0 +1,32 @@
+_id: req_d9589830eb9d4accaa8c1729daf9fe57
+type: Request
+parentId: fld_ab3f68cb6d8342e388ed0f5f599c63fc
+modified: 1628223994391
+created: 1625213966035
+url: "{{ _.local }}/inst/addTution"
+name: 회원가입
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"instId":"aa",
+    	"tutionNm":"에이",
+    	"tutionCd":"nY"
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_499adca27eed4a9ab85aa0d4ac3f1669
+authentication: {}
+metaSortKey: -1625213966073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

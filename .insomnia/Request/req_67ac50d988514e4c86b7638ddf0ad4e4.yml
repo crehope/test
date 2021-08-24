@@ -1,22 +1,27 @@
-_id: req_7f13259b208e4c5d818dc21f462cb5fe
+_id: req_67ac50d988514e4c86b7638ddf0ad4e4
 type: Request
-parentId: fld_3ad794feee94426e93588f6624f696b4
-modified: 1628660541697
-created: 1628645543279
-url: "{{ _.local }}/inst/tution/1111/2eecf0c2-8e54-4423-b71a-b7bc7962a2ca"
-name: 학원비 상세조회하기
+parentId: fld_10d9482607b941538e104d092fb161c9
+modified: 1629362664442
+created: 1629362664442
+url: "{{ _.local }}/inst/addTution"
+name: 학원비 생성하기
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    		"tutionNm": "a학원4",
+    		"tution": "232132", 
+    		"tutionContent" : "대답!2"
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1628335568350
+metaSortKey: -1628495750290
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
