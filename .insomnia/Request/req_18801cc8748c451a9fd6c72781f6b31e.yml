@@ -1,0 +1,46 @@
+_id: req_18801cc8748c451a9fd6c72781f6b31e
+type: Request
+parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
+modified: 1629795247606
+created: 1629793780523
+url: ""
+name: 학원생성
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_2ac2ae35c8fe44e99747de251fd246e5
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_1c566adfd10045d48ac37eec07d87de1
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_399d81fb4d5b47d0b8560c2eab9ab68d
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_88f8a6d62000459a9ce6309941edcfaf
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_323068aa96b142879c54058d0565fca7
+      name: ""
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_1b3dbba0ac274493bc0e5b0f4f428452
+authentication: {}
+metaSortKey: -1628671677361
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
