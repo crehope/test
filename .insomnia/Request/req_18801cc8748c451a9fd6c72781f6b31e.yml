@@ -1,35 +1,72 @@
 _id: req_18801cc8748c451a9fd6c72781f6b31e
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1629795247606
+modified: 1629856206631
 created: 1629793780523
-url: ""
+url: "{{ _.local }}/inst/create"
 name: 학원생성
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
-    - id: pair_2ac2ae35c8fe44e99747de251fd246e5
-      name: ""
-      value: ""
-      description: ""
-    - id: pair_1c566adfd10045d48ac37eec07d87de1
-      name: ""
-      value: ""
-      description: ""
-    - id: pair_399d81fb4d5b47d0b8560c2eab9ab68d
-      name: ""
-      value: ""
-      description: ""
-    - id: pair_88f8a6d62000459a9ce6309941edcfaf
-      name: ""
-      value: ""
-      description: ""
     - id: pair_323068aa96b142879c54058d0565fca7
+      name: JSON
+      value: |-
+        {
+          "bizRegNo":"385-88-00011",
+          "authYn":"Y",
+          "bankCd":"010",
+          "accountNm":"1005-401-163315",
+          "depositorNm":"강연숙",
+          "homeTelNo":"02-541-1881",
+          "addrDetail":"서울특별시 강남구 역삼로 534",
+          "instNm":"종로왕학원",
+          "instIntroContent":"70년전통의 종로왕학원이 여러분의 밝은 미래를 지지합니다.",
+          "instTpCd":"010#020#030#040"
+          
+        }
+      description: ""
+      type: text
+      multiline: application/json
+      disabled: false
+    - id: pair_2ac2ae35c8fe44e99747de251fd246e5
+      name: file
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\iset\Downloads\dormi.jpg
+      disabled: true
+    - id: pair_1c566adfd10045d48ac37eec07d87de1
+      name: image2
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\iset\Downloads\1night.png
+      disabled: false
+    - id: pair_399d81fb4d5b47d0b8560c2eab9ab68d
+      name: image3
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\iset\Downloads\dormi.jpg
+      disabled: true
+    - id: pair_88f8a6d62000459a9ce6309941edcfaf
+      name: image4
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\iset\Downloads\30546_35299_5225.jpg
+      disabled: true
+    - id: pair_c1efced5ba874214bde4ee51df93b407
       name: ""
       value: ""
       description: ""
+      disabled: true
 parameters: []
 headers:
   - name: Content-Type
