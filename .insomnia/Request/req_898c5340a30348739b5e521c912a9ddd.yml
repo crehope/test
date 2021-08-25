@@ -1,17 +1,17 @@
-_id: req_3dd8efca981f461b9f6357de0a49b702
+_id: req_898c5340a30348739b5e521c912a9ddd
 type: Request
-parentId: fld_0e806d548d49448aa77991d599b6a187
-modified: 1628753431956
-created: 1628670575738
-url: "{{ _.local }}/users/02df411t-ba21-4e04-be03-04c8055f5b94/relation"
-name: 관계 설정
+parentId: fld_68dbf628bf9440caa5a55ddd2f0c22dd
+modified: 1629863654227
+created: 1629862814253
+url: "{{ _.local }}/users/yoohyeonji2/login/hyeonji0001"
+name: api - 로그인
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1628670575738
+metaSortKey: -1629862814253
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
