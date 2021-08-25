@@ -1,25 +1,24 @@
-_id: req_db853e2efe4f40b18a6f4fe762e8a3b3
+_id: req_31ca992d86604c24b35d6202dfa82618
 type: Request
-parentId: fld_10d9482607b941538e104d092fb161c9
-modified: 1629362664463
-created: 1629362664463
-url: "{{ _.local }}/inst/tution/2eecf0c2-8e54-4423-b71a-b7bc7962a2ca/delete"
-name: 학원비 삭제
+parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
+modified: 1629871431754
+created: 1629867800367
+url: "{{ _.local }}/users/d1e7db72-d060-40df-972f-ee86ddf9b031/password"
+name: api - 비밀번호 재설정
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
-    { 
-    		"isActive" : "N"
+    {
+    	"pw": "hyeonji33A2"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1628271495574
+metaSortKey: -1628513948044.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
