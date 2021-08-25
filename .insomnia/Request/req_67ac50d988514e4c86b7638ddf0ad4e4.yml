@@ -1,7 +1,7 @@
 _id: req_67ac50d988514e4c86b7638ddf0ad4e4
 type: Request
 parentId: fld_10d9482607b941538e104d092fb161c9
-modified: 1629362664442
+modified: 1629852693154
 created: 1629362664442
 url: "{{ _.local }}/inst/addTution"
 name: 학원비 생성하기
@@ -11,9 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    		"tutionNm": "a학원4",
-    		"tution": "232132", 
-    		"tutionContent" : "대답!2"
+    		"tuitionNm": "수학A",
+    		"instId" : "inst1",
+    		"tuitionCd" : "020",
+    		"tuition": "154000", 
+    		"tuitionContent" : "고2 수학전문"
+    	
     }
 parameters: []
 headers:
