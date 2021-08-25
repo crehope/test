@@ -1,9 +1,10 @@
 _id: req_1b05513281bb4381b3c482de1f303916
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1629781881887
+modified: 1629884734352
 created: 1629191544492
-url: "{{ _.local }}/inst/coupon-management/issued-list/inst1/0001"
+url: "{{ _.local
+  }}/inst/coupon-management/issued-list/inst1/0001?useYnCd=000&pageNo=0"
 name: 쿠폰발급내역
 description: ""
 method: GET

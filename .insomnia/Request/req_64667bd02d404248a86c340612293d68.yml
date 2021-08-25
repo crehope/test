@@ -1,7 +1,7 @@
 _id: req_64667bd02d404248a86c340612293d68
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1629768960201
+modified: 1629886752415
 created: 1628571826589
 url: "{{ _.local
   }}/inst/coupon-management/save/inst1/00d93e33-0e6c-4a5e-afba-5e61a976dea9"
@@ -13,13 +13,13 @@ body:
   text: |-
     {
     	"couponTpManageId": "00d93e33-0e6c-4a5e-afba-5e61a976dea9",
-    	"couponNm": "유비온학원 화양점",
-    	"discountAmount": 4300,
+    	"couponNm": "유비온학원 건대점",
+    	"discountAmount": 4000000,
     	"discountCd": "010",
     	"validDtCd":"010",
     	"validStartDt": "2021-08-12T00:00:00.000+00:00",
     	"validEndDt": "2021-08-19T00:00:00.000+00:00",
-    	"couponComment": "유비온학원 화양점에서 지급한 쿠폰",
+    	"couponComment": "유비온학원 건대점에서 지급한 쿠폰",
     	"instId": "inst1"
     }
 parameters: []

@@ -1,7 +1,7 @@
 _id: req_ca193cf6e23e40eaa51a4abc42c7f535
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1629768793658
+modified: 1629886686029
 created: 1628151735479
 url: "{{ _.local }}/inst/coupon-management/save/inst1"
 name: 쿠폰생성
@@ -11,13 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"couponNm":"유비온학원 구로디지털점",
-    	"discountAmount": 95123,
+    	"couponNm":"유비온학원 가산디지털점",
+    	"discountAmount": 43123,
     	"discountCd":"010",
     	"validDtCd":"010",
     	"validStartDt":"2021-08-12T00:00:00.000+00:00",
     	"validEndDt":"2021-08-17T00:00:00.000+00:00",
-    	"couponComment":"유비온학원 구로디지털점에서 지급한 쿠폰",
+    	"couponComment":"유비온학원 가산디지털점에서 지급한 쿠폰",
     	"instId": "inst1"
     }
 parameters: []
