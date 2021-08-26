@@ -1,12 +1,12 @@
 _id: req_6157ddbfcb7c4e41b74b92fdf925dba1
 type: Request
 parentId: fld_10d9482607b941538e104d092fb161c9
-modified: 1629767805082
+modified: 1629937104996
 created: 1629362664457
 url: "{{ _.local }}/inst/tuition-manage/2eecf0c2-8e54-4423-b71a-b7bc7962a2ca/save"
 name: 학원비 수정
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-

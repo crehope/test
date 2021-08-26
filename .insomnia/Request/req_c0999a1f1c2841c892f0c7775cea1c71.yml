@@ -1,12 +1,12 @@
 _id: req_c0999a1f1c2841c892f0c7775cea1c71
 type: Request
 parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1629275918642
+modified: 1629937097675
 created: 1629275918642
 url: "{{ _.local }}/cls/sfgsfgfsgs/delete"
 name: 클래스 삭제
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-

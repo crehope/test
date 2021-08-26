@@ -1,12 +1,12 @@
 _id: req_a6efb760ecab4c8bb0025c808cb9c457
 type: Request
 parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1629766411878
+modified: 1629937092604
 created: 1629275918637
 url: "{{ _.local }}/cls/sfgsfgfsgs/save"
 name: 클래스 수정
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
