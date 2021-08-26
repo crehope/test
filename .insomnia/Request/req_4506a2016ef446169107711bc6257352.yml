@@ -1,9 +1,9 @@
 _id: req_4506a2016ef446169107711bc6257352
 type: Request
 parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1629766415011
+modified: 1629955838546
 created: 1629275918617
-url: "{{ _.local }}/cls/save"
+url: "{{ _.local }}/cls/class-manage/addClass"
 name: 클래스 생성
 description: ""
 method: POST
@@ -17,8 +17,8 @@ body:
     		"lecDay" : "월,화,수",
     		"classStartDt" : "2021-09-01",
     		"lecStartDt" : "am 06:55",
-    		"lecEndDt" : "am 07:30"
-    	
+    		"lecEndDt" : "am 07:30",
+    		"instId" : "inst1"
     }
 parameters: []
 headers:

@@ -1,9 +1,9 @@
 _id: req_7b91f7a2448e44b2af572cb2223f2f28
 type: Request
 parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1629888433188
+modified: 1629953442992
 created: 1629275918632
-url: "{{ _.local }}/cls/class-manage/inst1/testclass2"
+url: "{{ _.local }}/cls/class-manage/inst1/testclass1"
 name: 클래스 상세조회하기
 description: ""
 method: GET

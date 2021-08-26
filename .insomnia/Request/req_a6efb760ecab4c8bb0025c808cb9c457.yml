@@ -1,24 +1,24 @@
 _id: req_a6efb760ecab4c8bb0025c808cb9c457
 type: Request
 parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1629937092604
+modified: 1629963793865
 created: 1629275918637
-url: "{{ _.local }}/cls/sfgsfgfsgs/save"
-name: 클래스 수정
+url: "{{ _.local }}/cls/class-manage/edit/"
+name: 클래스 수정 - 수정중
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    		"classNm" : "유비온학원1",
+    		"classNm" : "유비온학원5",
     		"onlineYn" : "Y",
-    		"fixed" : "0",
+    		"fixed" : "10",
     		"lecDay" : "월,화,수",
     		"classStartDt" : "2021-09-01",
     		"lecStartDt" : "am 06:55",
-    		"lecEndDt" : "am 07:30"
-    		
+    		"lecEndDt" : "am 07:30",
+    		"isActive" : null
     }
 parameters: []
 headers:
