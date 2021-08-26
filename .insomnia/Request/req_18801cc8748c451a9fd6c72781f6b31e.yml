@@ -1,10 +1,10 @@
 _id: req_18801cc8748c451a9fd6c72781f6b31e
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1629856206631
+modified: 1630021981549
 created: 1629793780523
 url: "{{ _.local }}/inst/create"
-name: 학원생성
+name: 학원생성 (작업중)
 description: ""
 method: POST
 body:
@@ -31,13 +31,13 @@ body:
       multiline: application/json
       disabled: false
     - id: pair_2ac2ae35c8fe44e99747de251fd246e5
-      name: file
+      name: image1
       value: ""
       description: ""
       type: file
       multiline: null
-      fileName: C:\Users\iset\Downloads\dormi.jpg
-      disabled: true
+      fileName: C:\Users\iset\Downloads\30546_35299_5225.jpg
+      disabled: false
     - id: pair_1c566adfd10045d48ac37eec07d87de1
       name: image2
       value: ""
@@ -53,15 +53,15 @@ body:
       type: file
       multiline: null
       fileName: C:\Users\iset\Downloads\dormi.jpg
-      disabled: true
+      disabled: false
     - id: pair_88f8a6d62000459a9ce6309941edcfaf
       name: image4
       value: ""
       description: ""
       type: file
       multiline: null
-      fileName: C:\Users\iset\Downloads\30546_35299_5225.jpg
-      disabled: true
+      fileName: C:\Users\iset\Downloads\PS20122300650.jpg
+      disabled: false
     - id: pair_c1efced5ba874214bde4ee51df93b407
       name: ""
       value: ""

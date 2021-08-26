@@ -1,17 +1,17 @@
-_id: req_a9b5124b208f41a082c16560482f34d2
+_id: req_95bd6bc5b66444f5a80f5d19eda69278
 type: Request
-parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1630021966937
-created: 1628492768045
-url: http://localhost:8080/iset/inst/inst1/main
-name: 학원 메인  (작업중)
+parentId: wrk_3f7aff9c93464127a4dde3c617affd82
+modified: 1629961331830
+created: 1629949916116
+url: http://localhost:8080/iset/main/
+name: 메인
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1628671677461
+metaSortKey: -1629949916157
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
