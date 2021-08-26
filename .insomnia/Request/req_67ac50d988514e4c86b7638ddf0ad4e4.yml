@@ -1,9 +1,9 @@
 _id: req_67ac50d988514e4c86b7638ddf0ad4e4
 type: Request
 parentId: fld_10d9482607b941538e104d092fb161c9
-modified: 1629936835929
+modified: 1629942245085
 created: 1629362664442
-url: "{{ _.local }}/inst/addTution"
+url: "{{ _.local }}/inst/tuition-manage/addTuition"
 name: 학원비 생성하기
 description: ""
 method: POST
@@ -15,8 +15,7 @@ body:
             "tuitionNm": "미술",
             "tuitionCd": "080",
             "tuition": 400000,
-            "tuitionContent": "미술심화",
-            "classCount": "10"
+            "tuitionContent": "미술심화"
     }
 parameters: []
 headers:
