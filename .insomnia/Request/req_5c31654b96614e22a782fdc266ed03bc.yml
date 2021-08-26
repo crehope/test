@@ -1,7 +1,7 @@
 _id: req_5c31654b96614e22a782fdc266ed03bc
 type: Request
 parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
-modified: 1629435040490
+modified: 1629967869413
 created: 1628647738952
 url: "{{ _.local }}/users/member"
 name: api - 회원 조회
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"userNm": "asdf",
-    	"mobileNo": "123"
+    	"mobileNo": "12355555"
     }
 parameters: []
 headers:
