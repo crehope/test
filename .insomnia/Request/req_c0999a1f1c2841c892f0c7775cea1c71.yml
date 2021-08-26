@@ -1,15 +1,18 @@
 _id: req_c0999a1f1c2841c892f0c7775cea1c71
 type: Request
 parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1629963799040
+modified: 1629966910572
 created: 1629275918642
-url: "{{ _.local }}/cls/class-manage/dsfwsfgdfg/delete"
-name: 클래스 삭제 - 수정중
+url: "{{ _.local }}/cls/class-manage/263bf1f8-b4ef-47be-b62c-6b3e39692fa8/delete"
+name: 클래스 삭제
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	
+    }
 parameters: []
 headers:
   - name: Content-Type
