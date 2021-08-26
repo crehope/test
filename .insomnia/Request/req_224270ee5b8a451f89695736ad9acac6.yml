@@ -1,0 +1,30 @@
+_id: req_224270ee5b8a451f89695736ad9acac6
+type: Request
+parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
+modified: 1629279520804
+created: 1629279518642
+url: "{{ _.local }}/api/users/find/id/01029945131/verify/109285"
+name: api - 아이디 찾기 인증 확인 (인증 오류)
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userNm": "유현지",
+    	"certiNo": "109286",
+    	"mobileNo": "01029945131"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1628500299766.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

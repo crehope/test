@@ -1,0 +1,44 @@
+_id: req_470d5473922c4140bdb42ce4698d2192
+type: Request
+parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
+modified: 1628735055377
+created: 1628585085155
+url: https://sens.apigw.ntruss.com/sms/v2/services/ncp:sms:kr:266503594836:baecom_dev/messages
+name: 인증 요청
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "type":"SMS",
+        "contentType":"COMM",
+        "countryCode":"82",
+        "from":"01029945130",
+        "content":"인증 번호를 입력해 주세요.",
+        "messages":[
+            {
+                "to":"01029945130",
+                "content":"인증번호를 입력해 주세요."
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json; charset=utf-8
+  - name: x-ncp-apigw-timestamp
+    value: 17:52:20.984
+  - name: x-ncp-iam-access-key
+    value: XRQWus30CZn8ivgiay3K
+  - name: x-ncp-apigw-signature-v2
+    value: 4NeRDky7lHhB2K8ngoR2Wi4UJ+A3CeGqCqCgO/xfLyo=
+authentication: {}
+metaSortKey: -1628585085155
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
