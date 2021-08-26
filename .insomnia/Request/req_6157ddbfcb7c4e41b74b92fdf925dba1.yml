@@ -1,7 +1,7 @@
 _id: req_6157ddbfcb7c4e41b74b92fdf925dba1
 type: Request
 parentId: fld_10d9482607b941538e104d092fb161c9
-modified: 1629939654503
+modified: 1629943612238
 created: 1629362664457
 url: "{{ _.local }}/inst/tuition-manage/2eecf0c2-8e54-4423-b71a-b7bc7962a2ca/edit"
 name: 학원비 수정
@@ -11,13 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    		"tuitionManageId" : "2eecf0c2-8e54-4423-b71a-b7bc7962a2ca",
     		"instId" : "inst1",
     		"tuitionNm" : "학원수정되었습니다.",
     		"tuitionCd" : "200",
     		"tuitionContent" : "수정되었음.",
     		"tuition" : "200000",
-    		"isActive" : null
+    		"isActive" : null 
     }
 parameters: []
 headers:
