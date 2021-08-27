@@ -1,17 +1,17 @@
-_id: req_95bd6bc5b66444f5a80f5d19eda69278
+_id: req_3dd8efca981f461b9f6357de0a49b702
 type: Request
-parentId: wrk_3f7aff9c93464127a4dde3c617affd82
-modified: 1630040578886
-created: 1629949916116
-url: "{{ _.local }}/main-init"
-name: 메인 (작업중)
+parentId: fld_0e806d548d49448aa77991d599b6a187
+modified: 1628753431956
+created: 1628670575738
+url: "{{ _.local }}/users/02df411t-ba21-4e04-be03-04c8055f5b94/relation"
+name: 관계 설정
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1629949916157
+metaSortKey: -1628670575738
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

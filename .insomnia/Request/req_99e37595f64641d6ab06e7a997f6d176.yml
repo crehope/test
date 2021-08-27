@@ -1,17 +1,17 @@
-_id: req_95bd6bc5b66444f5a80f5d19eda69278
+_id: req_99e37595f64641d6ab06e7a997f6d176
 type: Request
-parentId: wrk_3f7aff9c93464127a4dde3c617affd82
-modified: 1630040578886
-created: 1629949916116
-url: "{{ _.local }}/main-init"
-name: 메인 (작업중)
+parentId: fld_0e806d548d49448aa77991d599b6a187
+modified: 1629435217332
+created: 1628239437937
+url: "{{ _.local }}/users/my/20bb6081-6a4d-4ed3-8dd7-fad5938ee118/info"
+name: api - 내 정보 (결과 존재)
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1629949916157
+metaSortKey: -1628239459186
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

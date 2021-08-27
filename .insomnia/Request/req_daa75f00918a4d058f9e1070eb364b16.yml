@@ -1,17 +1,17 @@
-_id: req_95bd6bc5b66444f5a80f5d19eda69278
+_id: req_daa75f00918a4d058f9e1070eb364b16
 type: Request
-parentId: wrk_3f7aff9c93464127a4dde3c617affd82
-modified: 1630040578886
-created: 1629949916116
-url: "{{ _.local }}/main-init"
-name: 메인 (작업중)
+parentId: fld_0e806d548d49448aa77991d599b6a187
+modified: 1629435013411
+created: 1629346592088
+url: "{{ _.local }}/users/my/iiiset111/info"
+name: api - 내 정보 (결과 없음)
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1629949916157
+metaSortKey: -1628239459161
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
