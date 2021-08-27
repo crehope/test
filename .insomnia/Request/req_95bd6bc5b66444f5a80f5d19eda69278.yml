@@ -1,10 +1,10 @@
 _id: req_95bd6bc5b66444f5a80f5d19eda69278
 type: Request
 parentId: wrk_3f7aff9c93464127a4dde3c617affd82
-modified: 1629961331830
+modified: 1630022723640
 created: 1629949916116
 url: http://localhost:8080/iset/main/
-name: 메인
+name: 메인 (작업중)
 description: ""
 method: GET
 body: {}
