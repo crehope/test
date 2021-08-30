@@ -1,26 +1,27 @@
-_id: req_51c1930b2d9e4f4fb75765b694319418
+_id: req_3b08012fd8c74b05b9efa7a67d7e4371
 type: Request
-parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1630030056295
-created: 1629276773665
-url: "{{ _.local }}/users/find/id/01029945130/verify"
-name: api - 아이디 찾기 인증 확인 (성공)
+parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
+modified: 1630307079001
+created: 1630300624590
+url: https://open.neis.go.kr/hub/schoolInfo?SCHUL_NM=동국
+name: api - 학교 정보 검색
 description: ""
 method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"userNm": "유현지",
-    	"certiNo": "109286",
-    	"mobileNo": "01029945130"
+    	"KEY": "c97cbd06d1004986ad67af7ba2e9d6e9",
+    	"pIndex": 1,
+    	"pSize": 100,
+    	"Type": "json"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1628513948194.75
+metaSortKey: -1630300624590
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
