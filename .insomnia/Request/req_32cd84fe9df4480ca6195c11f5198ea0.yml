@@ -1,0 +1,21 @@
+_id: req_32cd84fe9df4480ca6195c11f5198ea0
+type: Request
+parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
+modified: 1630315022698
+created: 1630308457181
+url: "{{ _.local }}/inst/coupon-management/issue-init/inst1/0001?pageNo=0"
+name: 쿠폰발급[초기화면](진행중)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1630308457181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
