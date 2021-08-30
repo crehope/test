@@ -1,9 +1,9 @@
 _id: req_3b08012fd8c74b05b9efa7a67d7e4371
 type: Request
 parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
-modified: 1630307079001
+modified: 1630313654492
 created: 1630300624590
-url: https://open.neis.go.kr/hub/schoolInfo?SCHUL_NM=동국
+url: https://open.neis.go.kr/hub/schoolInfo?SCHUL_NM=부산
 name: api - 학교 정보 검색
 description: ""
 method: GET
