@@ -1,0 +1,31 @@
+_id: req_668eb1fade8a40eeb5dae95d39e37f3c
+type: Request
+parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
+modified: 1630397025685
+created: 1630314292146
+url: "{{ _.local }}/users/search-school"
+name: api - 학교 정보 검색
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"pIndex": 1,
+    	"pSize": 100,
+    	"Type": "json",
+    	"keyword": "강남"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1630125270373.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
