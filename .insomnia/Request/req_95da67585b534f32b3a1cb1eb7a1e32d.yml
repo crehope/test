@@ -1,22 +1,25 @@
-_id: req_7b91f7a2448e44b2af572cb2223f2f28
+_id: req_95da67585b534f32b3a1cb1eb7a1e32d
 type: Request
-parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1630478694193
-created: 1629275918632
-url: "{{ _.local }}/cls/class-manage/inst1/testclass1"
-name: 클래스 상세조회하기
-description: ""
+parentId: fld_d87389326e4240edb51901c4022d265f
+modified: 1630479361600
+created: 1630476190883
+url: "{{ _.local }}/cls/class-main/testclass1"
+name: 클래스 메인 조회
+description: 해당 학원 아이디로 클래스 목록을 조회한다
 method: GET
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	
+    }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1628765614977.5
+metaSortKey: -1628765615002.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
