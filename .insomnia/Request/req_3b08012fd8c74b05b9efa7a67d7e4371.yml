@@ -1,19 +1,18 @@
 _id: req_3b08012fd8c74b05b9efa7a67d7e4371
 type: Request
 parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
-modified: 1630313654492
+modified: 1630398479790
 created: 1630300624590
-url: https://open.neis.go.kr/hub/schoolInfo?SCHUL_NM=부산
-name: api - 학교 정보 검색
+url: https://open.neis.go.kr/hub/schoolInfo?KEY=c97cbd06d1004986ad67af7ba2e9d6e9&SCHUL_NM=강서&pIndex=1&pSize=10
+name: 학교 정보 검색
 description: ""
 method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"KEY": "c97cbd06d1004986ad67af7ba2e9d6e9",
-    	"pIndex": 1,
-    	"pSize": 100,
+    	"pIndex": 2,
+    	"pSize": 10,
     	"Type": "json"
     }
 parameters: []
