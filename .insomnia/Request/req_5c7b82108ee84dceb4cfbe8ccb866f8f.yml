@@ -1,7 +1,7 @@
 _id: req_5c7b82108ee84dceb4cfbe8ccb866f8f
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1630467105894
+modified: 1630547900270
 created: 1630467065218
 url: "{{ _.local }}/inst/coupon-management/issue/0001"
 name: 쿠폰발급(진행중)
@@ -14,6 +14,9 @@ body:
     	"userList":[
     		{
     			"userId":"cbeabc6c-9936-42c6-9e34-8603e95efb72"
+    		},
+    		{
+    			"userId":"384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
     		}
     	]
     }
