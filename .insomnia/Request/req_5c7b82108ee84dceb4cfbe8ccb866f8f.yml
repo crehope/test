@@ -1,10 +1,10 @@
 _id: req_5c7b82108ee84dceb4cfbe8ccb866f8f
 type: Request
 parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1630547900270
+modified: 1630573803272
 created: 1630467065218
 url: "{{ _.local }}/inst/coupon-management/issue/0001"
-name: 쿠폰발급(진행중)
+name: 쿠폰발급
 description: ""
 method: POST
 body:
