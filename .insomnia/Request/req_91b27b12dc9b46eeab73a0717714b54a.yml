@@ -1,10 +1,10 @@
 _id: req_91b27b12dc9b46eeab73a0717714b54a
 type: Request
 parentId: fld_24225d6b4e0740ce8a867b7cd8c093bc
-modified: 1630572229244
+modified: 1630658088823
 created: 1630570555075
 url: "{{ _.local }}/cls/apply/init/testclass1/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
-name: 수강신청-본인[초기화면](진행중)
+name: 수강신청-본인[초기화면]
 description: ""
 method: GET
 body: {}
