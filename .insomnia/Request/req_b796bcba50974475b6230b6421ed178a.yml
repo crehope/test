@@ -1,0 +1,33 @@
+_id: req_b796bcba50974475b6230b6421ed178a
+type: Request
+parentId: fld_624e16ab690c4d8791ae6b427b1f99be
+modified: 1630916190990
+created: 1630915849012
+url: "{{ _.local }}/cls/userRelation/save/0c15e300-66b3-4d53-a403-48be7655d5b4"
+name: 회원클래스관계생성
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userInstId":"0c15e300-66b3-4d53-a403-48be7655d5b4",
+    	"relationCd":"010",
+    	"userId":"member2",
+    	"classId":"class1",
+    	"hiddenYn":"N"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9b636f2b0d2d40fd9d32ef8c404770c5
+authentication: {}
+metaSortKey: -1630915849012
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
