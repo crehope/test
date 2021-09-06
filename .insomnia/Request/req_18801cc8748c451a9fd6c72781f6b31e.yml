@@ -1,10 +1,10 @@
 _id: req_18801cc8748c451a9fd6c72781f6b31e
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1630021981549
+modified: 1630910258994
 created: 1629793780523
 url: "{{ _.local }}/inst/create"
-name: 학원생성 (작업중)
+name: 학원생성
 description: ""
 method: POST
 body:
@@ -14,12 +14,12 @@ body:
       name: JSON
       value: |-
         {
-          "bizRegNo":"385-88-00011",
+          "bizRegNo":"3858800011",
           "authYn":"Y",
           "bankCd":"010",
-          "accountNm":"1005-401-163315",
+          "accountNm":"1005401163315",
           "depositorNm":"강연숙",
-          "homeTelNo":"02-541-1881",
+          "homeTelNo":"025411881",
           "addrDetail":"서울특별시 강남구 역삼로 534",
           "instNm":"종로왕학원",
           "instIntroContent":"70년전통의 종로왕학원이 여러분의 밝은 미래를 지지합니다.",
