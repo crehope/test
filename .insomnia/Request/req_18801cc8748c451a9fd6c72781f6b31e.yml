@@ -1,7 +1,7 @@
 _id: req_18801cc8748c451a9fd6c72781f6b31e
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1630910258994
+modified: 1630914578791
 created: 1629793780523
 url: "{{ _.local }}/inst/create"
 name: 학원생성
@@ -23,7 +23,8 @@ body:
           "addrDetail":"서울특별시 강남구 역삼로 534",
           "instNm":"종로왕학원",
           "instIntroContent":"70년전통의 종로왕학원이 여러분의 밝은 미래를 지지합니다.",
-          "instTpCd":"010#020#030#040"
+          "instTpCd":"010#020#030#040",
+          "userId":"3957ab7d-06b1-47bf-99cf-d5a1d8bc5f5e"
           
         }
       description: ""
