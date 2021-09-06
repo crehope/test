@@ -1,9 +1,9 @@
 _id: req_898c5340a30348739b5e521c912a9ddd
 type: Request
 parentId: fld_68dbf628bf9440caa5a55ddd2f0c22dd
-modified: 1629863654227
+modified: 1630891403968
 created: 1629862814253
-url: "{{ _.local }}/users/yoohyeonji2/login/hyeonji0001"
+url: "{{ _.local }}/users/yessoo/login/dmdtn001+"
 name: api - 로그인
 description: ""
 method: GET

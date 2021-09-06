@@ -1,10 +1,10 @@
 _id: fld_e64a9599c9bd452cbaa4f0222281f35f
 type: RequestGroup
-parentId: fld_462a2f014d9d470a982d25d4128654d6
-modified: 1630475077471
+parentId: fld_d8d41346f9b2484298ff32408ed34856
+modified: 1630889994942
 created: 1629275918605
-name: 클래스
+name: 클래스관리
 description: ""
 environment: {}
 environmentPropertyOrder: null
-metaSortKey: -1628786129763.5
+metaSortKey: -1629435873588.5

@@ -1,9 +1,9 @@
 _id: req_31ca992d86604c24b35d6202dfa82618
 type: Request
 parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1630287137224
+modified: 1630891910895
 created: 1629867800367
-url: "{{ _.local }}/users/d1e7db72-d060-40df-972f-ee86ddf9b032/password"
+url: "{{ _.local }}/users/7f557985-a364-4ab5-901a-5f63acd3b141/password"
 name: api - 비밀번호 재설정
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"pw": "hyeonji33A2"
+    	"pw": "dmdtn001+3"
     }
 parameters: []
 headers:

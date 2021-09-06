@@ -1,9 +1,9 @@
 _id: req_a9b5124b208f41a082c16560482f34d2
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1630021966937
+modified: 1630890625413
 created: 1628492768045
-url: http://localhost:8080/iset/inst/inst1/main
+url: "{{ _.local }}/inst/inst1/main"
 name: 학원 메인  (작업중)
 description: ""
 method: GET
