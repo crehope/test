@@ -1,0 +1,21 @@
+_id: req_dd716ae8c36e496aa20813ef5c6aa97e
+type: Request
+parentId: fld_41cf1e4136f2468daba340f3f657f39f
+modified: 1630977418490
+created: 1630976818588
+url: "{{ _.local }}/board/testclass1/test1"
+name: 게시물 상세조회(진행)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1630976818588
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

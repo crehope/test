@@ -1,18 +1,15 @@
 _id: req_95da67585b534f32b3a1cb1eb7a1e32d
 type: Request
 parentId: fld_d87389326e4240edb51901c4022d265f
-modified: 1630479361600
+modified: 1630977450565
 created: 1630476190883
 url: "{{ _.local }}/cls/class-main/testclass1"
-name: 클래스 메인 조회
+name: 클래스 메인 조회[회원]
 description: 해당 학원 아이디로 클래스 목록을 조회한다
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
