@@ -1,0 +1,29 @@
+_id: req_69e8b253db64427f92e36bbea34e83e0
+type: Request
+parentId: fld_41cf1e4136f2468daba340f3f657f39f
+modified: 1630977287727
+created: 1630977262357
+url: "{{ _.local }}/board/testclass1/test1/edit"
+name: 게시글 수정
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_0bd0b2c31b684b86b39709f820d0aabc
+authentication: {}
+metaSortKey: -1630977262357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
