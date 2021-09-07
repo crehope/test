@@ -1,0 +1,21 @@
+_id: req_f47d33051a704b33931b94e94c1dc852
+type: Request
+parentId: fld_e9a1f0c327fe4d49a57d596b07da74b8
+modified: 1630995538282
+created: 1630990853538
+url: "{{ _.local }}/top/feed/32e4b4b7-fc3f-45f5-b9ab-33aa09539440"
+name: 전체피드
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629910403255
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
