@@ -1,0 +1,32 @@
+_id: req_6cd93db0cadb4797baa3948cd6cd999b
+type: Request
+parentId: fld_d87389326e4240edb51901c4022d265f
+modified: 1631003638544
+created: 1630999007903
+url: "{{ _.local
+  }}/cls/apply/new-profile/testclass1/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
+name: 새 프로필 팝업(진행중)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userNickNm":"빨간폭탄조아",
+    	"profileFileNm":"bomb",
+    	"applyRelationCd":"010"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dbbff6dea90144698fc66573e8c993a6
+authentication: {}
+metaSortKey: -1630999007903
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
