@@ -1,0 +1,30 @@
+_id: req_8bc70c0e521646e0b7e469933c0b358c
+type: Request
+parentId: fld_ee245958247e4589896a2d5ac6b49b5f
+modified: 1631067808651
+created: 1631067679858
+url: "{{ _.local }}/clsContract/clsTuition"
+name: 클래스 조회
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"instId":"inst1",
+    	"classId":"testclass1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c0ec2ecc9fb8424e85e04061ed3720a7
+authentication: {}
+metaSortKey: -1631067679858
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
