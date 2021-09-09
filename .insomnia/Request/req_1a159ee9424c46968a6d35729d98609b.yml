@@ -1,18 +1,18 @@
-_id: req_1b05513281bb4381b3c482de1f303916
+_id: req_1a159ee9424c46968a6d35729d98609b
 type: Request
-parentId: fld_eb75e6abf13e42ceaa8793219f2ef54f
-modified: 1631168116664
-created: 1629191544492
+parentId: fld_d87389326e4240edb51901c4022d265f
+modified: 1631089269872
+created: 1631089199393
 url: "{{ _.local
-  }}/inst/coupon-management/issued-list/inst1/0001?useYnCd=000&pageNo=0"
-name: 쿠폰발급내역
+  }}/cls/apply/init-child/testclass1/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
+name: 수강신청-자녀[초기화면](진행중)
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1629191544492
+metaSortKey: -1631089199393
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
