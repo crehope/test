@@ -1,9 +1,9 @@
 _id: req_a9b5124b208f41a082c16560482f34d2
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1630979120609
+modified: 1631244659104
 created: 1628492768045
-url: "{{ _.local }}/inst/fdg355trrterr/main"
+url: "{{ _.local }}/inst/fdg355trrterr/32e4b4b7-fc3f-45f5-b9ab-33aa09539440/main"
 name: 학원 메인
 description: ""
 method: GET
