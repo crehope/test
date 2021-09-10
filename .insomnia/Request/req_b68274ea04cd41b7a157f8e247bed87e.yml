@@ -1,10 +1,10 @@
 _id: req_b68274ea04cd41b7a157f8e247bed87e
 type: Request
 parentId: fld_d87389326e4240edb51901c4022d265f
-modified: 1630916370032
+modified: 1631258375117
 created: 1630915620258
 url: "{{ _.local }}/cls/apply/save/testclass1/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
-name: 수강신청-본인(진행중)
+name: 수강신청-본인
 description: ""
 method: POST
 body:
