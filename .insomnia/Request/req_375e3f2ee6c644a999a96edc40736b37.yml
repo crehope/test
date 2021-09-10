@@ -1,0 +1,31 @@
+_id: req_375e3f2ee6c644a999a96edc40736b37
+type: Request
+parentId: fld_d87389326e4240edb51901c4022d265f
+modified: 1631236025694
+created: 1631235125118
+url: "{{ _.local
+  }}/cls/apply/save-child/testclass1/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
+name: 수강신청-자녀(진행중)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"approveUserId":"7d773fe8-8962-4d0a-9dc4-5b9835be1372",
+    	"applyRelationCd":"020"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ba23cd0d65d94fa188eb61a32fbae071
+authentication: {}
+metaSortKey: -1631235125119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
