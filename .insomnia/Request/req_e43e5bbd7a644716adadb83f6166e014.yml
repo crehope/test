@@ -1,9 +1,9 @@
 _id: req_e43e5bbd7a644716adadb83f6166e014
 type: Request
 parentId: fld_e2e397f38e524ec2904b7844f92accd4
-modified: 1630397558660
+modified: 1631171109063
 created: 1630387195613
-url: "{{ _.local }}/pay/depositWithdrawal/save/inst2"
+url: "{{ _.local }}/pay/depositWithdrawal/save/inst4"
 name: 입출금생성
 description: ""
 method: POST
@@ -17,9 +17,9 @@ body:
     	"depositWithdrawalNm":"김길동 학원비",
     	"depositWithdrawalMoney":"150000000",
     	"memo":"1",
-    	"userId":"member2",
-    	"instId":"inst2",
-    	"classId":"class2"
+    	"userId":"member4",
+    	"instId":"inst4",
+    	"classId":"class4"
     }
 parameters: []
 headers:

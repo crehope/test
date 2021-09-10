@@ -1,9 +1,9 @@
 _id: req_06f4fd1a76904236a9055186cf2aa52f
 type: Request
 parentId: fld_f117e5a140d04a3fa4cad84a7b044bc9
-modified: 1630915808244
+modified: 1631234329542
 created: 1630915796916
-url: "{{ _.local }}/inst/userRelation/save/member2/inst2"
+url: "{{ _.local }}/inst/userRelation/save/member11/inst11"
 name: 회원학원관계생성
 description: ""
 method: POST
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"userId":"member2",
-    	"instId":"inst2",
-    	"relationCd":"2222"
+    	"userId":"352f5e32-3771-4e8a-9121-c7fa205b5c96",
+    	"instId":"da2b14dc-f9b9-4f54-9988-d9e707facd7a",
+    	"relationCd":"010"
     }
 parameters: []
 headers:

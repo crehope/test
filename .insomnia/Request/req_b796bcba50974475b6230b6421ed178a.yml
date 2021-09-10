@@ -1,9 +1,9 @@
 _id: req_b796bcba50974475b6230b6421ed178a
 type: Request
 parentId: fld_624e16ab690c4d8791ae6b427b1f99be
-modified: 1630916190990
+modified: 1631177633180
 created: 1630915849012
-url: "{{ _.local }}/cls/userRelation/save/0c15e300-66b3-4d53-a403-48be7655d5b4"
+url: "{{ _.local }}/cls/userRelation/save/67d9ad71-ee8c-4035-845d-c6e510133e2c"
 name: 회원클래스관계생성
 description: ""
 method: POST
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"userInstId":"0c15e300-66b3-4d53-a403-48be7655d5b4",
-    	"relationCd":"010",
-    	"userId":"member2",
-    	"classId":"class1",
+    	"userInstId":"67d9ad71-ee8c-4035-845d-c6e510133e2c",
+    	"relationCd":"007010",
+    	"userId":"056e4644-8084-4bd5-a25a-8113b9305b3b",
+    	"classId":"afa30d78-3dea-41bf-b30a-557132ff77f4",
     	"hiddenYn":"N"
     }
 parameters: []

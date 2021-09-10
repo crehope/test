@@ -1,0 +1,34 @@
+_id: req_5ad2a926a95841d4ae598949ef2d2b79
+type: Request
+parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
+modified: 1631234300417
+created: 1631181778208
+url: "{{ _.local
+  }}/clsContract/contract/0701ce07-7d99-4ddc-8c7a-1091d2812546/da2b14dc-f9b9-4f\
+  54-9988-d9e707facd7a/afa30d78-3dea-41bf-b30a-557132ff77f4"
+name: 계약완료
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"relationCd":"010",
+    	"userId":"352f5e32-3771-4e8a-9121-c7fa205b5c96",
+    	"classId":"afa30d78-3dea-41bf-b30a-557132ff77f4",
+    	"instId":"da2b14dc-f9b9-4f54-9988-d9e707facd7a"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_574cd7e2b94e41fd9d8b3ae19410e00b
+authentication: {}
+metaSortKey: -1631181778208
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
