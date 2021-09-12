@@ -1,0 +1,22 @@
+_id: req_aacf215e7a81441b81fe9ff576af6bfb
+type: Request
+parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
+modified: 1631439626868
+created: 1631439514956
+url: "{{ _.local
+  }}/inst/biz-reg-no-auth?bizRegNo=7498100045&presidentNm=김현욱&startDt=20150420"
+name: 사업자 등록 번호 인증 (학원 생성)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628671677311
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
