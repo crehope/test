@@ -1,0 +1,21 @@
+_id: req_5d3e06d02d80460f819772068ce34e0e
+type: Request
+parentId: fld_e533c0fca184417a92ae5e95ec50d2a1
+modified: 1631517717236
+created: 1631500230294
+url: "{{ _.local }}/users/my-coupon/unused/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
+name: 쿠폰 보관함-사용전
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1631500230294
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
