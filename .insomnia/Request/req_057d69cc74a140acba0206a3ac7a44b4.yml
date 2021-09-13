@@ -1,9 +1,10 @@
 _id: req_057d69cc74a140acba0206a3ac7a44b4
 type: Request
 parentId: fld_c69dfec404cb446d89b1128c5e94dff5
-modified: 1631518446765
+modified: 1631519790200
 created: 1631516133512
-url: "{{ _.local }}/inst/download-image/?fileSaveNm=2271263851147100.jpg"
+url: "{{ _.local
+  }}/inst/download-image/?fileSaveNm=2271263851147100.jpg&imageUnit=N"
 name: 학원 이미지
 description: ""
 method: GET
