@@ -1,0 +1,21 @@
+_id: req_5cbf1b3e35e344e1bfbd37999cdf2e3f
+type: Request
+parentId: fld_e3ef10b39d3f462ab42773a38b35f60f
+modified: 1631596352669
+created: 1631596339185
+url: "{{ _.local }}/test/test1"
+name: Test
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628671677442.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
