@@ -1,0 +1,22 @@
+_id: req_f8d15dff4acd40b0bcbb098b3afed96b
+type: Request
+parentId: fld_f117e5a140d04a3fa4cad84a7b044bc9
+modified: 1631079286156
+created: 1631077276331
+url: "{{ _.local
+  }}/inst/userRelation/32e4b4b7-fc3f-45f5-b9ab-33aa09539440/fdg355trrterr"
+name: 회원 학원 관계 조회
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1631077276372
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

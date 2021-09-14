@@ -1,7 +1,7 @@
 _id: req_ef7f0096939e4179a97b86e9297044dd
 type: Request
 parentId: fld_10d9482607b941538e104d092fb161c9
-modified: 1629947859353
+modified: 1631253567936
 created: 1629362664451
 url: "{{ _.local }}/inst/tuition-manage/inst1"
 name: 학원비 목록 조회하기

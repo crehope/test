@@ -1,18 +1,24 @@
-_id: req_74b98db08db24b89bfdcf4d47babdfba
+_id: req_b4aca5765fea43a993492b070a2d7d89
 type: Request
 parentId: fld_41cf1e4136f2468daba340f3f657f39f
-modified: 1631579337354
-created: 1630977066275
-url: "{{ _.local }}/board/test11/delete"
-name: 게시글 삭제
+modified: 1631578837571
+created: 1631513218020
+url: "{{ _.local }}/board/testclass1/save"
+name: 게시글 작성
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"isActive" : "N",
-    	"classBoardId" : "test11"
+    	"classId" : "testclass1",
+    	"userId" : "cbeabc6c-9936-42c6-9e34-8603e95efb72",
+    	"title" : "게시글작성테스트수행중",
+    	"content" : "게시글작성테스트입니다.",
+    	"relevantTag" : "작성태그,테스트",
+    	"saveYn" : "N",
+    	"replyYn" : "Y",
+    	"reserveDtYn" : "N"
     }
 parameters: []
 headers:
@@ -21,7 +27,7 @@ headers:
     value: application/json
     description: ""
 authentication: {}
-metaSortKey: -1630976818538
+metaSortKey: -1630946333775
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

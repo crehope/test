@@ -1,17 +1,18 @@
-_id: req_dd716ae8c36e496aa20813ef5c6aa97e
+_id: req_aecdb6bb45c041b18863d0e2f22922f8
 type: Request
-parentId: fld_41cf1e4136f2468daba340f3f657f39f
-modified: 1631513196323
-created: 1630976818588
-url: "{{ _.local }}/board/test1/info"
-name: 게시물 상세조회
+parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
+modified: 1631595725725
+created: 1631594508686
+url: "{{ _.local
+  }}/clsContract/unused-coupon-list/inst1/cbeabc6c-9936-42c6-9e34-8603e95efb72"
+name: 쿠폰조회
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1630976818588
+metaSortKey: -1631594508686
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
