@@ -1,0 +1,26 @@
+_id: req_721c367530e64f5487ccc93c7b6333f0
+type: Request
+parentId: fld_ab0d8fbf85294fc1991608efd6e5d7ba
+modified: 1631596478530
+created: 1631595039929
+url: "{{ _.local }}/inst/apply-manage/test1/19a7513a-efe2-499a-9238-20ced3d17272"
+name: 직원상세보기
+description: 해당 학원 아이디로 클래스 목록을 조회한다
+method: GET
+body:
+  mimeType: application/json
+  text: "{}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+authentication: {}
+metaSortKey: -1631585913792
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

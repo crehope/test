@@ -1,0 +1,34 @@
+_id: req_21287357b6634cb08c568413dada9bbd
+type: Request
+parentId: fld_ab0d8fbf85294fc1991608efd6e5d7ba
+modified: 1631598657390
+created: 1631585913703
+url: "{{ _.local }}/inst/apply-manage/create"
+name: 직원초대
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"applyInviteTcCd" : "002001",
+    	"instId" : "test1",
+    	"userNm" : "김문수",
+    	"mobileNo" : "01029945130",
+    	"relationCd" : "001050"
+    }
+parameters: []
+headers:
+  - id: pair_d96b1465693f4ccb88de32f42db634e7
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1631585913842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_f3fa2975881346e1a03eacc8ec003b76
+type: Request
+parentId: fld_ab0d8fbf85294fc1991608efd6e5d7ba
+modified: 1631598785128
+created: 1631598063048
+url: "{{ _.local }}/inst/apply-manage/delete"
+name: 직원제거
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"instId" : "test1",
+    	"userNm" : "김문수",
+    	"mobileNo" : "01029945130",
+    	"relationCd" : "001050"
+    }
+parameters: []
+headers:
+  - id: pair_d96b1465693f4ccb88de32f42db634e7
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1631585913817
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
