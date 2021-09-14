@@ -1,7 +1,7 @@
 _id: req_18801cc8748c451a9fd6c72781f6b31e
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1630914578791
+modified: 1631516614199
 created: 1629793780523
 url: "{{ _.local }}/inst/create"
 name: 학원생성
@@ -25,7 +25,7 @@ body:
           "instIntroContent":"70년전통의 종로왕학원이 여러분의 밝은 미래를 지지합니다.",
           "instTpCd":"010#020#030#040",
           "userId":"3957ab7d-06b1-47bf-99cf-d5a1d8bc5f5e"
-          
+
         }
       description: ""
       type: text
@@ -45,7 +45,7 @@ body:
       description: ""
       type: file
       multiline: null
-      fileName: C:\Users\iset\Downloads\1night.png
+      fileName: C:\Users\iset\Downloads\dormi.jpg
       disabled: false
     - id: pair_399d81fb4d5b47d0b8560c2eab9ab68d
       name: image3
@@ -53,7 +53,7 @@ body:
       description: ""
       type: file
       multiline: null
-      fileName: C:\Users\iset\Downloads\dormi.jpg
+      fileName: C:\Users\iset\Downloads\unnamed.jpg
       disabled: false
     - id: pair_88f8a6d62000459a9ce6309941edcfaf
       name: image4

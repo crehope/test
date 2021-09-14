@@ -1,0 +1,14 @@
+_id: env_8e1eb83b806e4afca098da639410e9fa
+type: Environment
+parentId: env_71453654b07a544c1b7962ce0f630aae8b05300a
+modified: 1631500515102
+created: 1631500410072
+name: server
+data:
+  local: http://115.85.181.44:8080/iset
+dataPropertyOrder:
+  "&":
+    - local
+color: null
+isPrivate: false
+metaSortKey: 1631500410072

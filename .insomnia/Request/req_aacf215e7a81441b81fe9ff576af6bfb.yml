@@ -1,17 +1,18 @@
-_id: req_a9b5124b208f41a082c16560482f34d2
+_id: req_aacf215e7a81441b81fe9ff576af6bfb
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1631249329925
-created: 1628492768045
-url: "{{ _.local }}/inst/fdg355trrterr/32e4b4b7-fc3f-45f5-b9ab-33aa09539440/main"
-name: 학원 메인
+modified: 1631498870549
+created: 1631439514956
+url: "{{ _.local
+  }}/inst/biz-reg-no-auth?bizRegNo=2063223785&presidentNm=조상철&startDt=20150102"
+name: 사업자 등록 번호 인증 (학원 생성)
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1628671677461
+metaSortKey: -1628671677311
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

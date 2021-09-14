@@ -1,0 +1,21 @@
+_id: req_f35db8e55b914b2a8df5dd25b7cdcc9d
+type: Request
+parentId: fld_e9a1f0c327fe4d49a57d596b07da74b8
+modified: 1631080919484
+created: 1631080913362
+url: "{{ _.local }}/top/class/32e4b4b7-fc3f-45f5-b9ab-33aa09539440"
+name: 전체 피드 글쓰기 (클래스 선택 화면)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1629890646804
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

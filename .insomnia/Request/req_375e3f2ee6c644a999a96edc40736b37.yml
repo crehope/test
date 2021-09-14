@@ -1,26 +1,27 @@
-_id: req_b68274ea04cd41b7a157f8e247bed87e
+_id: req_375e3f2ee6c644a999a96edc40736b37
 type: Request
 parentId: fld_d87389326e4240edb51901c4022d265f
-modified: 1631258375117
-created: 1630915620258
-url: "{{ _.local }}/cls/apply/save/testclass1/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
-name: 수강신청-본인
+modified: 1631258396837
+created: 1631235125118
+url: "{{ _.local
+  }}/cls/apply/save-child/testclass1/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
+name: 수강신청-자녀
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"userProfileId":"p0001",
-    	"applyRelationCd":"010"
+    	"approveUserId":"7d773fe8-8962-4d0a-9dc4-5b9835be1372",
+    	"applyRelationCd":"020"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_4b00929672124c1296f4442be6eeb4e1
+    id: pair_ba23cd0d65d94fa188eb61a32fbae071
 authentication: {}
-metaSortKey: -1630915620258
+metaSortKey: -1631235125119
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

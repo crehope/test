@@ -1,18 +1,18 @@
-_id: req_09ccf860deee46ffb55db99db6a81b31
+_id: req_057d69cc74a140acba0206a3ac7a44b4
 type: Request
-parentId: fld_624e16ab690c4d8791ae6b427b1f99be
-modified: 1631082348652
-created: 1631080105360
+parentId: fld_c69dfec404cb446d89b1128c5e94dff5
+modified: 1631519790200
+created: 1631516133512
 url: "{{ _.local
-  }}/cls/userRelation/find/32e4b4b7-fc3f-45f5-b9ab-33aa09539440/sfgsfgfsgs"
-name: 회원 클래스 관계 조회
+  }}/inst/download-image/?fileSaveNm=2271263851147100.jpg&imageUnit=N"
+name: 학원 이미지
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1631080105404
+metaSortKey: -1628671677448.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
