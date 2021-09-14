@@ -1,7 +1,7 @@
 _id: req_95da67585b534f32b3a1cb1eb7a1e32d
 type: Request
 parentId: fld_d87389326e4240edb51901c4022d265f
-modified: 1630977450565
+modified: 1631253387942
 created: 1630476190883
 url: "{{ _.local }}/cls/class-main/testclass1"
 name: 클래스 메인 조회[회원]
