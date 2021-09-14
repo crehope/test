@@ -1,9 +1,9 @@
 _id: req_b18f5c434b0a479e9f624e9cab62262d
 type: Request
 parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1630891500618
+modified: 1631579722168
 created: 1629870890314
-url: "{{ _.local }}/users/7f557985-a364-4ab5-901a-5f63acd3b141"
+url: "{{ _.local }}/users/a2a4332e-839c-4cb6-b1bc-bf0ea08255d2"
 name: api - userId
 description: ""
 method: GET

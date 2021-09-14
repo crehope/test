@@ -1,17 +1,17 @@
-_id: req_898c5340a30348739b5e521c912a9ddd
+_id: req_ee3ff463624d45718b2dad939296caac
 type: Request
-parentId: fld_68dbf628bf9440caa5a55ddd2f0c22dd
-modified: 1630904219051
-created: 1629862814253
-url: "{{ _.local }}/users/qudtn1/login/qudtn1+1"
-name: api - 로그인
+parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
+modified: 1631579514854
+created: 1631579467210
+url: "{{ _.local }}/users/6d520088-e669-4b53-b5b5-16bf57fd6caa/relation/family"
+name: 나의 관계
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1629862814253
+metaSortKey: -1631579467211
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
