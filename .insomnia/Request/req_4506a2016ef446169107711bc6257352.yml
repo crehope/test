@@ -1,30 +1,49 @@
 _id: req_4506a2016ef446169107711bc6257352
 type: Request
 parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1631091888766
+modified: 1631698046723
 created: 1629275918617
 url: "{{ _.local }}/cls/class-manage/addClass"
 name: 클래스 생성
 description: ""
 method: POST
 body:
-  mimeType: application/json
-  text: |-
-    {
-    		"classNm" : "유비온학원5",
-    		"onlineYn" : "Y",
-    		"fixed" : "0",
-    		"lecDay" : "월,화,수",
-    		"classStartDt" : "2021-09-01 00:00:00",
-    		
-    		"lecStartDt" : "2021-01-01 06:55",
-    		"lecEndDt" : "2021-01-01 14:30",
-    		"instId" : "inst1"
-    } 
+  mimeType: multipart/form-data
+  params:
+    - name: JSON
+      value: |-
+        {
+        		"classNm" : "유비온학원55",
+        		"onlineYn" : "Y",
+        		"fixed" : "0",
+        		"lecDay" : "월,화,수",
+        		"classStartDt" : "2021-09-01 00:00:00",
+        		
+        		"lecStartDt" : "2021-01-01 06:55",
+        		"lecEndDt" : "2021-01-01 14:30",
+        		"instId" : "inst1"
+        } 
+      id: pair_e1a1359d5e1444deb3ba70974d4b14da
+      type: text
+      multiline: text/plain
+    - id: pair_fa0384a83c0c4e63b4f6be2c571bc0cf
+      name: image1
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\creho\Desktop\5555.png
+    - id: pair_0945463516d2433c8b632ba80f4cba38
+      name: image3
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\creho\Desktop\4444444444.png
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
 metaSortKey: -1628765615077.5

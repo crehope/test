@@ -1,7 +1,7 @@
 _id: req_18801cc8748c451a9fd6c72781f6b31e
 type: Request
 parentId: fld_cf8ddf38385049ebbeffbbb8be9c0234
-modified: 1631516614199
+modified: 1631697606992
 created: 1629793780523
 url: "{{ _.local }}/inst/create"
 name: 학원생성
@@ -63,11 +63,6 @@ body:
       multiline: null
       fileName: C:\Users\iset\Downloads\PS20122300650.jpg
       disabled: false
-    - id: pair_c1efced5ba874214bde4ee51df93b407
-      name: ""
-      value: ""
-      description: ""
-      disabled: true
 parameters: []
 headers:
   - name: Content-Type
