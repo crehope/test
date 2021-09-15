@@ -1,17 +1,17 @@
-_id: req_057d69cc74a140acba0206a3ac7a44b4
+_id: req_33d6b5443843451b9d60893c9d61dfd3
 type: Request
-parentId: fld_c69dfec404cb446d89b1128c5e94dff5
-modified: 1631670436749
-created: 1631516133512
-url: "{{ _.local }}/inst/download-image/?fileSaveNm=506002444666336.png&imageUnit=N"
-name: 학원 이미지
+parentId: fld_0d29e2d1ad6e472c9dd9a5f18ad59a62
+modified: 1631691874641
+created: 1631691853317
+url: "{{ _.local }}/cls/user-manage/apply-class-list/testclass1?pageNo=0"
+name: 가입신청리스트
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1628671677448.5
+metaSortKey: -1631691853317
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
