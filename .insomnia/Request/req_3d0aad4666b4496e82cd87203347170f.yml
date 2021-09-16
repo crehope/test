@@ -1,0 +1,37 @@
+_id: req_3d0aad4666b4496e82cd87203347170f
+type: Request
+parentId: fld_41b11a1b5ceb4bdcafbd78052a0a37ef
+modified: 1631753677523
+created: 1631753021369
+url: http://49.50.166.108:8080/auth/realms/baecom/protocol/openid-connect/token/introspect
+name: token validation
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: client_id
+      value: bc-client
+      id: pair_5dd95dfddb6f497e9b4119262a792979
+    - id: pair_091991fe2f2f4b43a321c2c312e64b99
+      name: client_secret
+      value: 92cf3a6e-f3b6-43db-bbc0-2c720d3d7962
+      description: ""
+    - id: pair_2e8ea9551d794c7688e38e74913c6b87
+      name: token
+      value: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJoM1lvRnpHMWkwNl9OZFdyTGZhZTdjSU05VVpBMmJwSkx2YkdiZHJRVk5vIn0.eyJleHAiOjE2MzE3NTM5NjcsImlhdCI6MTYzMTc1MzY2NywianRpIjoiMzQyNTdmNjgtYzU0OS00MmNjLTg4NDItNTViMDE3YzUyMjU1IiwiaXNzIjoiaHR0cDovLzQ5LjUwLjE2Ni4xMDg6ODA4MC9hdXRoL3JlYWxtcy9iYWVjb20iLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZjo3NzJkYWQ3Mi00Zjc2LTRjMzUtYmVjYy1mODA5MGQzYjhkYmQ6d2tkZHVkdG4xIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiYmMtY2xpZW50Iiwic2Vzc2lvbl9zdGF0ZSI6ImE3NTk5MTVmLWY4YTctNDQ2My1iODE2LWMxNzg3YjVhYTZhMCIsImFjciI6IjEiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIGVtYWlsIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJ1c2VyX2lkIjoiNmQ1MjAwODgtZTY2OS00YjUzLWI1YjUtMTZiZjU3ZmQ2Y2FhIiwidXNlcl9pbnB1dF9pZCI6IndrZGR1ZHRuMSIsInVzZXJfbm0iOiLsnqXsmIHsiJgiLCJlbWFpbCI6IndrZGR1ZHRuQG5hdmVyLmNvbSJ9.KL_RHwMPdccisuGxyJLx2EHyJ-JyjzWAgkM3awW42t6arha1971VIfl2w7KTgxQIxEblJ9sytcxj6txkUjBOYkOPTAAzwhFqwUV9acRO74_9R0x_h_Mhc7oCn75RGAO7auS3UG7w3VwK7OihSdzHEqVFC_beKQij7-O-fMeqv5LPBYoVONORF_JVIo61w5XAjxrZtyhEcNIeKslclrV5kJ9m-SdVhOZv-LK7M-YjjLRW_pnXj5zlwuRibWIcmY9LyjyJPnuHpRCgzB7hLrEhPqaCmbm6MB7ClTC3StxIsb9a7fqy_B69IYriCKZa_9sf3Og84gLAiIVl5V7Yp0E55w
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+authentication: {}
+metaSortKey: -1628671677379.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

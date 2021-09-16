@@ -1,0 +1,49 @@
+_id: req_16ce632c0a084d73b7b4216fb5737186
+type: Request
+parentId: fld_41b11a1b5ceb4bdcafbd78052a0a37ef
+modified: 1631752997414
+created: 1631752387659
+url: http://49.50.166.108:8080/auth/realms/baecom/protocol/openid-connect/token
+name: token 발급
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: client_id
+      value: bc-client
+      id: pair_5dd95dfddb6f497e9b4119262a792979
+    - id: pair_091991fe2f2f4b43a321c2c312e64b99
+      name: client_secret
+      value: 92cf3a6e-f3b6-43db-bbc0-2c720d3d7962
+      description: ""
+    - id: pair_37639dbfcc874daf84a277a9d88c74bb
+      name: grant_type
+      value: password
+      description: ""
+    - id: pair_ca222329acd54bbb91bcaa2929905cb9
+      name: scope
+      value: openid
+      description: ""
+    - id: pair_1d34144b692049c0af60040cbb22f9b9
+      name: username
+      value: wkddudtn1
+      description: ""
+    - id: pair_4fd235e1d6ad43a3b88dcacbd8ba7b94
+      name: password
+      value: Wkddudtn1!
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+authentication: {}
+metaSortKey: -1628671677398.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
