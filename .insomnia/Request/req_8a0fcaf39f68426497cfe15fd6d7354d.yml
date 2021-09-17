@@ -1,10 +1,10 @@
 _id: req_8a0fcaf39f68426497cfe15fd6d7354d
 type: Request
 parentId: fld_0d29e2d1ad6e472c9dd9a5f18ad59a62
-modified: 1631782599852
+modified: 1631865122993
 created: 1631781455592
 url: "{{ _.local }}/cls/user-manage/reject/fa13a9bc-5c18-4bcf-8bc0-0c11e13d64c1"
-name: 가입거절(진행중)
+name: 가입거절
 description: ""
 method: POST
 body:

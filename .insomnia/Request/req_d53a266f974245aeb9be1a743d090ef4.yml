@@ -1,10 +1,10 @@
 _id: req_d53a266f974245aeb9be1a743d090ef4
 type: Request
 parentId: fld_0d29e2d1ad6e472c9dd9a5f18ad59a62
-modified: 1631782602629
+modified: 1631865127512
 created: 1631780851326
 url: "{{ _.local }}/cls/user-manage/approve/fa13a9bc-5c18-4bcf-8bc0-0c11e13d64c1"
-name: 가입승인(진행중)
+name: 가입승인
 description: ""
 method: POST
 body:
