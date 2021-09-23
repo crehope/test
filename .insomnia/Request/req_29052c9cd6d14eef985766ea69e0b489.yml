@@ -1,0 +1,26 @@
+_id: req_29052c9cd6d14eef985766ea69e0b489
+type: Request
+parentId: fld_bc331e3a7fe046d9b54f01f8277cc566
+modified: 1632369604763
+created: 1632369546565
+url: "{{ _.local }}/inst/user-manage/approve/fa13a9bc-5c18-4bcf-8bc0-0c11e13d64c1"
+name: 가입승인
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3b7f7362002b4bbea363c6c70e37e49a
+authentication: {}
+metaSortKey: -1632369546565
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

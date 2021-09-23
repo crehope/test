@@ -1,0 +1,26 @@
+_id: req_16fe720e3e664ea4b6547762773d7c4d
+type: Request
+parentId: fld_bc331e3a7fe046d9b54f01f8277cc566
+modified: 1632370156597
+created: 1632370105634
+url: "{{ _.local }}/inst/user-manage/reject/fa13a9bc-5c18-4bcf-8bc0-0c11e13d64c1"
+name: 가입거절
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e8666c20c2cc46e48674b334b0ebb271
+authentication: {}
+metaSortKey: -1632370105634
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
