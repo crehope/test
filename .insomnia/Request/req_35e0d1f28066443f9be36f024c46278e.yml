@@ -1,0 +1,29 @@
+_id: req_35e0d1f28066443f9be36f024c46278e
+type: Request
+parentId: fld_9041ebdf86834088b07f3f540d11a567
+modified: 1632387265223
+created: 1632387261990
+url: "{{ _.local }}/inst/auth-manage/inst1/77c15fe3-5809-4b17-8066-ed8047ab987d"
+name: 권한보유자목록조회
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_98cf63d163f24d018e916143923539e8
+authentication: {}
+metaSortKey: -1630197190195.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

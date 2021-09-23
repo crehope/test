@@ -31,14 +31,12 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: C:\Users\creho\Desktop\5555.png
     - id: pair_0945463516d2433c8b632ba80f4cba38
       name: image3
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: C:\Users\creho\Desktop\4444444444.png
 parameters: []
 headers:
