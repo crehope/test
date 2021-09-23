@@ -1,0 +1,21 @@
+_id: req_ccf0a4e919164055992adc9ec18b9785
+type: Request
+parentId: fld_bc331e3a7fe046d9b54f01f8277cc566
+modified: 1632363023310
+created: 1632362933727
+url: "{{ _.local }}/inst/user-manage/apply-class-list/inst1?pageNo=0"
+name: 가입신청리스트
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1632362933728
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
