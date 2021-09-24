@@ -1,19 +1,19 @@
 _id: req_5cbf1b3e35e344e1bfbd37999cdf2e3f
 type: Request
 parentId: fld_e3ef10b39d3f462ab42773a38b35f60f
-modified: 1632467413736
+modified: 1632471031774
 created: 1631596339185
-url: "{{ _.local }}/test/test1"
+url: "{{ _.local }}/test/test1?trId=NICE20210924000000000000003"
 name: Test
 description: ""
 method: GET
 body:
-  mimeType: application/x-www-form-urlencoded
-  params: []
+  mimeType: application/json
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
-    value: application/x-www-form-urlencoded
+    value: application/json
     id: pair_d0da7a3732fd44bc997511750f2dec77
 authentication: {}
 metaSortKey: -1632467402970
