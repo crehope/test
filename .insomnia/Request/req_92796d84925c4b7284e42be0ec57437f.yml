@@ -1,0 +1,35 @@
+_id: req_92796d84925c4b7284e42be0ec57437f
+type: Request
+parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
+modified: 1632465748084
+created: 1632465395620
+url: "{{ _.local }}/clsContract/save/contract"
+name: 계약 생성
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"instId":"inst0924",
+    	"classId":"class0924",
+    	"userId":"c1f82d45-a5c0-4dde-bbc5-abd63fe121b6",
+    	"studentTelNo":"01076271912",
+    	"parentId":"260331cf-ab22-45ee-8c07-5d4e02ef12fb",
+    	"parentTelNo":"01076271912",
+    	"paymentMthCd":"010"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d2e33d82764646e19c4497c50b4598cb
+authentication: {}
+metaSortKey: -1632465395620
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
