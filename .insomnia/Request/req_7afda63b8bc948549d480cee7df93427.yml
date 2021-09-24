@@ -1,0 +1,21 @@
+_id: req_7afda63b8bc948549d480cee7df93427
+type: Request
+parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
+modified: 1632370233817
+created: 1632369887131
+url: "{{ _.local }}/users/id-exist/zito11"
+name: api - 아이디 중복여부 확인
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1632369887131
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

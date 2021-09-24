@@ -1,0 +1,31 @@
+_id: req_649975b6e3574ce6a058d392ef04ff4a
+type: Request
+parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
+modified: 1631681681526
+created: 1631681426370
+url: "{{ _.local }}/users/6d520088-e669-4b53-b5b5-16bf57fd6caa/relation/history"
+name: 관계 등록
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"relationCd": "CHILD",
+    	"parentNm": "김병수",
+    	"parentMobileNo": "01029945130",
+    	"userId": "6d520088-e669-4b53-b5b5-16bf57fd6caa"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1631562478725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
