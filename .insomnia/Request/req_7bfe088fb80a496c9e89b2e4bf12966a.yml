@@ -1,0 +1,22 @@
+_id: req_7bfe088fb80a496c9e89b2e4bf12966a
+type: Request
+parentId: fld_e55a1021dfcd44f0b538bf241f7d8d53
+modified: 1632447372275
+created: 1632447258839
+url: "{{ _.local
+  }}/users/my-payment/class-list/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
+name: 클래스 목록 조회
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1632447258839
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
