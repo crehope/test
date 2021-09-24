@@ -1,7 +1,7 @@
 _id: req_ca4dd63c75d04133a9e9a1d92ae94c6e
 type: Request
 parentId: fld_e3ef10b39d3f462ab42773a38b35f60f
-modified: 1632467507652
+modified: 1632467984797
 created: 1632467402920
 url: https://dev.niceepay.com:7001/epay/getOtpToken.do
 name: OptToken
@@ -22,6 +22,10 @@ body:
       name: MID
       value: JEMfOfhUb5DG86agE56pbQ==
       description: ""
+    - id: pair_d5c7e895b4a142e2a1c8567941323802
+      name: M_INFO
+      value: RQMvM4HnOBCAw6KSOO93oRgIIG7QOLe4ia3gxJ+uhno=
+      description: ""
     - id: pair_a81f0c9dd7284319a81b457a58252a38
       name: PARTNER_CODE
       value: WJ01
@@ -32,8 +36,9 @@ body:
       description: ""
     - id: pair_e8c18661951345909f1b045a139fd602
       name: SIGN
-      value: dsfsdfdsfdsf
+      value: dsfsdfdsfds
       description: ""
+      disabled: false
 parameters: []
 headers:
   - name: Content-Type
