@@ -1,0 +1,56 @@
+_id: req_ca4dd63c75d04133a9e9a1d92ae94c6e
+type: Request
+parentId: fld_e3ef10b39d3f462ab42773a38b35f60f
+modified: 1632469591781
+created: 1632467402920
+url: https://dev.niceepay.com:7001/epay/getOtpToken.do
+name: OptToken
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_249a61cd76914606a319f2b45eb42be1
+      name: TR_ID
+      value: EoRk3vbpWU467f+YR8pd2mArQcbwc0lZeL6Dx08ovCI=
+      description: ""
+    - id: pair_e15e5cef58f44e858362bcc793c76a70
+      name: TRANS_DT
+      value: "20210924164535"
+      description: ""
+    - id: pair_ffd3327a5d4342edafadaf53093b0022
+      name: MID
+      value: JEMfOfhUb5DG86agE56pbQ==
+      description: ""
+    - id: pair_d5c7e895b4a142e2a1c8567941323802
+      name: M_INFO
+      value: RQMvM4HnOBCAw6KSOO93oRgIIG7QOLe4ia3gxJ+uhno=
+      description: ""
+      disabled: true
+    - id: pair_a81f0c9dd7284319a81b457a58252a38
+      name: PARTNER_CODE
+      value: WJ01
+      description: ""
+    - id: pair_1436a673c2904b84a8c221ce6706a425
+      name: METHOD
+      value: KC3DdOw8pHeguCUJDl9Z7Q==
+      description: ""
+    - id: pair_e8c18661951345909f1b045a139fd602
+      name: SIGN
+      value: 7b539998f6739d2671eb54e8f6fa90ecd23c55cf3abbeb334f7d310acfb2bab82b219dc5ab4e44a3c764e8b66fc9179b8222206182cc97660351e38964d1e92a
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_6ab97cea735b49859c261531755ed939
+authentication: {}
+metaSortKey: -1632467402920
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
