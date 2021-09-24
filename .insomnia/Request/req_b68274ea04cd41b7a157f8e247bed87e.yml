@@ -1,7 +1,7 @@
 _id: req_b68274ea04cd41b7a157f8e247bed87e
 type: Request
 parentId: fld_d87389326e4240edb51901c4022d265f
-modified: 1631258375117
+modified: 1632445022429
 created: 1630915620258
 url: "{{ _.local }}/cls/apply/save/testclass1/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259"
 name: 수강신청-본인
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"userProfileId":"p0001",
+    	"userProfileId":"07d833fb-af79-43a2-8a6a-d3da8d74ee16",
     	"applyRelationCd":"010"
     }
 parameters: []

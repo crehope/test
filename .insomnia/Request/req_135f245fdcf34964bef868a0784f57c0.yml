@@ -1,7 +1,7 @@
 _id: req_135f245fdcf34964bef868a0784f57c0
 type: Request
 parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
-modified: 1631067751547
+modified: 1632461353104
 created: 1631067736754
 url: "{{ _.local }}/clsContract/clsTuitionList"
 name: 클래스 리스트 조회
@@ -11,12 +11,13 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"instId":"inst1"
+    	"instId":"injkljlst1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_44eb264c440a4b26a6b3563ac0465e59
 authentication: {}
 metaSortKey: -1631067736754
 isPrivate: false
