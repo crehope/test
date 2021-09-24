@@ -1,17 +1,17 @@
-_id: req_ba9a512257f84af096dd0c4dc9e5113b
+_id: req_ec37dc5ef954409f9224eff7d69741b1
 type: Request
-parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1630891796279
-created: 1628572846518
-url: "{{ _.local }}/users/find/id"
-name: api - 아이디 찾기 SMS 전송
+parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
+modified: 1632372989765
+created: 1632372960124
+url: "{{ _.local }}/users/member"
+name: api - 회원 조회
 description: ""
 method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"userNm": "유현지",
+    	"userNm": "김응수",
     	"mobileNo": "01029945130"
     }
 parameters: []
@@ -19,7 +19,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1628532146099.5
+metaSortKey: -1632372960124
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,25 +1,25 @@
-_id: req_5c31654b96614e22a782fdc266ed03bc
+_id: req_88aeb56197ed4d9f9295a0d6e53b3071
 type: Request
 parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
-modified: 1632361867156
-created: 1628647738952
-url: "{{ _.local }}/users/id-exist"
-name: api - 회원 조회
+modified: 1631669722325
+created: 1631668105427
+url: "{{ _.local }}/users/sms"
+name: sms
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"userNm": "김킹수",
-    	"mobileNo": "01029945130"
+    	"mobileNoList": ["01029945130"],
+    	"content": "[배컴]\n'김영수' 님이 자녀 연결을 신청을 하셨습니다. \n회원가입 후 배컴서비스를 이용해 보세요"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1628647738952
+metaSortKey: -1631668105427
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

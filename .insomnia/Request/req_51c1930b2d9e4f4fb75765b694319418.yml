@@ -1,18 +1,17 @@
 _id: req_51c1930b2d9e4f4fb75765b694319418
 type: Request
 parentId: fld_2dc2c4df826e4f3c84b251e2224622cd
-modified: 1630891801578
+modified: 1632363904614
 created: 1629276773665
 url: "{{ _.local }}/users/find/id/01029945130/verify"
-name: api - 아이디 찾기 인증 확인
+name: api - 아이디 찾기 결과
 description: ""
 method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"userNm": "유현지",
-    	"certiNo": "109286",
+    	"userNm": "김킹수",
     	"mobileNo": "01029945130"
     }
 parameters: []
