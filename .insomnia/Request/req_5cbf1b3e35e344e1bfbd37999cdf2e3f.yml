@@ -1,10 +1,10 @@
 _id: req_5cbf1b3e35e344e1bfbd37999cdf2e3f
 type: Request
 parentId: fld_e3ef10b39d3f462ab42773a38b35f60f
-modified: 1632471031774
+modified: 1632474374738
 created: 1631596339185
-url: "{{ _.local }}/test/test1?trId=NICE20210924000000000000003"
-name: Test
+url: "{{ _.local }}/test/test1?trId=NICE20210924000000000000005"
+name: 결제 Test
 description: ""
 method: GET
 body:
