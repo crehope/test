@@ -1,7 +1,7 @@
 _id: req_16ce632c0a084d73b7b4216fb5737186
 type: Request
 parentId: fld_41b11a1b5ceb4bdcafbd78052a0a37ef
-modified: 1631752997414
+modified: 1632724082841
 created: 1631752387659
 url: http://49.50.166.108:8080/auth/realms/baecom/protocol/openid-connect/token
 name: token 발급
@@ -27,11 +27,11 @@ body:
       description: ""
     - id: pair_1d34144b692049c0af60040cbb22f9b9
       name: username
-      value: wkddudtn1
+      value: a1241531
       description: ""
     - id: pair_4fd235e1d6ad43a3b88dcacbd8ba7b94
       name: password
-      value: Wkddudtn1!
+      value: dlduddl12!
       description: ""
 parameters: []
 headers:
