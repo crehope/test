@@ -1,25 +1,23 @@
-_id: req_35e0d1f28066443f9be36f024c46278e
+_id: req_8f6a5f405d644d6d9fb842a0d437beb8
 type: Request
 parentId: fld_9041ebdf86834088b07f3f540d11a567
-modified: 1632387265223
-created: 1632387261990
-url: "{{ _.local }}/inst/auth-manage/inst1/77c15fe3-5809-4b17-8066-ed8047ab987d"
-name: 권한보유자목록조회
+modified: 1632789728104
+created: 1632719099609
+url: "{{ _.local
+  }}/inst/auth-manage/inst1/089bb085-e2cf-46cb-ad8a-5272978578a3/list"
+name: 권한부여자목록조회
 description: ""
 method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_98cf63d163f24d018e916143923539e8
 authentication: {}
-metaSortKey: -1630197190195.625
+metaSortKey: -1630161230284.5625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

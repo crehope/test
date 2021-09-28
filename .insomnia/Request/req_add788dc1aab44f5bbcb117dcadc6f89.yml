@@ -1,23 +1,15 @@
 _id: req_add788dc1aab44f5bbcb117dcadc6f89
 type: Request
 parentId: fld_9041ebdf86834088b07f3f540d11a567
-modified: 1632384900156
+modified: 1632813153133
 created: 1631772604983
 url: "{{ _.local }}/inst/auth-manage/inst1"
 name: 권한목록조회
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	
-    }
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_98cf63d163f24d018e916143923539e8
+headers: []
 authentication: {}
 metaSortKey: -1630269110017.75
 isPrivate: false
