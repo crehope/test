@@ -1,12 +1,12 @@
 _id: req_3ed6f70150a0421c94ddb4966eeaea9a
 type: Request
 parentId: fld_e55a1021dfcd44f0b538bf241f7d8d53
-modified: 1632471400448
+modified: 1632815836089
 created: 1632463732353
 url: "{{ _.local
   }}/users/my-payment/paid-list/384d29a7-1bce-4a0c-b1eb-2f4a2a5fb259/testclass1\
   ?pageNo=0"
-name: 클래스 납부 목록 조회(진행중)
+name: 클래스별 납부 목록 조회
 description: ""
 method: GET
 body: {}
