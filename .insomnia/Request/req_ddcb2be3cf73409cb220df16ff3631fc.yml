@@ -1,0 +1,38 @@
+_id: req_ddcb2be3cf73409cb220df16ff3631fc
+type: Request
+parentId: fld_f24302230a3a4a3aaf7cc1f13c273078
+modified: 1632796224626
+created: 1632795783109
+url: "{{ _.local }}/users"
+name: api - 회원가입
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userNm": "김팔팔",
+    	"userInputId": "kim888",
+    	"pw": "rlavkfvkf",
+    	"email": "rlavkfvkf@naver.com",
+    	"mobileNo": "01088888888",
+    	"genderCd": "M",
+    	"birthdate": "2003-02-02",
+    	"userNickNm": "팔팔",
+    	"geoOfferAgreeYn": true,
+    	"msgReceiveAgreeYn": true,
+    	"profileFileNm": "프로필1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1632795783109
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
