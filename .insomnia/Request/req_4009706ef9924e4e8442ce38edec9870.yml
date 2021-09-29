@@ -1,0 +1,21 @@
+_id: req_4009706ef9924e4e8442ce38edec9870
+type: Request
+parentId: fld_3a5bda81f5c34ba280806531f75cb64f
+modified: 1632893732551
+created: 1632883234577
+url: "{{ _.local }}/cls/paid-received-manage/paid-list/testclass1"
+name: 수납리스트
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1632883234577
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
