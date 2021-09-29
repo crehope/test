@@ -1,0 +1,29 @@
+_id: req_43389bd1254e4925a5420ffb75ab24f4
+type: Request
+parentId: fld_e55a1021dfcd44f0b538bf241f7d8d53
+modified: 1632814158060
+created: 1632812401593
+url: "{{ _.local }}/users/my-payment/change-date/c0001"
+name: 수납일자 변경
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"contractPayDt":"28"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8911d59970804794bda283786cea0ab4
+authentication: {}
+metaSortKey: -1632812401593
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

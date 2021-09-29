@@ -1,10 +1,10 @@
-_id: req_5ad2a926a95841d4ae598949ef2d2b79
+_id: req_1ea2212180a7496d92f7b1db1af91354
 type: Request
 parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
-modified: 1632806794668
-created: 1631181778208
-url: "{{ _.local }}/clsContract/contract"
-name: 계약완료
+modified: 1632806837732
+created: 1632804976068
+url: "{{ _.local }}/clsContract/contract/afterPayment"
+name: 계약 결제후 처리
 description: ""
 method: POST
 body:
@@ -20,28 +20,27 @@ body:
     	"userId":"762ed248-14e5-46ae-9155-65ddc97fb90f",
     	"userNm":"곽아가",
     	"studentTelNo":"01076271912",
-    	"userYn":"Y",
     	"parentId":"59bec050-3bdc-42ef-8f0d-caed2b971afa",
     	"parentNm":"곽마마",
     	"parentTelNo":"01076271912",
-    	"parentYn":"Y",
     	"paymentType":"030",
     	"paymentMthCd":"030",
-    	"useCouponId":"3067fb48-b24c-4ed0-8c96-0f208d16aada",
+    	"useCouponId":"ea89fee5-3ba9-4ff0-8ab6-a4a4c474f2f1",
     	"payMoney":"100000",
-    	"discountPrice":"50000"
+    	"discountPrice":"50000",
+    	"applyClassId":"61c04cfe-772f-4c68-9c51-4399c4855639"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_574cd7e2b94e41fd9d8b3ae19410e00b
+    id: pair_98e1fb4753054783ac2d825bf070f2f4
 authentication: {}
-metaSortKey: -1631067736729
+metaSortKey: -1631067736679
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
-settingDisableRenderRequestBody: false
+settingDisableRenderRequestBody: true
 settingEncodeUrl: true
 settingRebuildPath: true
 settingFollowRedirects: global
