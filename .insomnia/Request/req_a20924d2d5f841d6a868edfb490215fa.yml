@@ -1,15 +1,19 @@
 _id: req_a20924d2d5f841d6a868edfb490215fa
 type: Request
 parentId: fld_e2e397f38e524ec2904b7844f92accd4
-modified: 1632961145605
+modified: 1632981406956
 created: 1632961103738
-url: http://localhost:8030/pay/depositWithdrawal/inst1
+url: "{{ _.local }}/pay/depositWithdrawal/inst1/20210711/20210901"
 name: 기간지정검색
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_8b27449849ae4e0089378794a9e82a51
+    name: token
+    value: "{{ _.token }}"
+    description: ""
 authentication: {}
 metaSortKey: -1630387195638
 isPrivate: false
