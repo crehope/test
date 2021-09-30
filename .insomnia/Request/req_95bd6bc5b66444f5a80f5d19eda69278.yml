@@ -1,15 +1,19 @@
 _id: req_95bd6bc5b66444f5a80f5d19eda69278
 type: Request
 parentId: fld_dc39a293e0fb4a37b6e8a66085c4c4c1
-modified: 1630892792790
+modified: 1632906319569
 created: 1629949916116
-url: "{{ _.local }}/main/32e4b4b7-fc3f-45f5-b9ab-33aa09539440"
+url: "{{ _.local }}/main/072908e9-5252-44b2-85a5-0ba68f884d2f"
 name: 메인
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_2467057fa8ee418c8250a479daaab75c
+    name: token
+    value: "{{ _.token }}"
+    description: ""
 authentication: {}
 metaSortKey: -1629949916157
 isPrivate: false
