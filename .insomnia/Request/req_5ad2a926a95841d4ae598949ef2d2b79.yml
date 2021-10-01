@@ -1,7 +1,7 @@
 _id: req_5ad2a926a95841d4ae598949ef2d2b79
 type: Request
 parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
-modified: 1633061534298
+modified: 1633069734094
 created: 1631181778208
 url: "{{ _.local }}/clsContract/contract"
 name: 계약완료
@@ -11,26 +11,27 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"sendUserId":"applyUserId0928",
+    	"sendUserId":"applyUserId1001",
     	"instId":"inst0924111",
-    	"instNm":"0928학원111",
-    	"classId":"class0928111",
-    	"classNm":"0928수학111",
+    	"instNm":"1001학원111",
+    	"classId":"class1001111",
+    	"classNm":"1001수학111",
     	"tuition":"150000",
-    	"userId":"762ed248-14e5-46ae-9155-65ddc97fb90f",
+    	"userId":"",
     	"userNm":"곽아가",
     	"studentTelNo":"01076271912",
-    	"userYn":"Y",
-    	"parentId":"59bec050-3bdc-42ef-8f0d-caed2b971afa",
+    	"userYn":"N",
+    	"parentId":"",
     	"parentNm":"곽마마",
     	"parentTelNo":"01076271912",
-    	"parentYn":"Y",
-    	"paymentType":"030",
-    	"paymentMthCd":"030",
-    	"useCouponId":"3067fb48-b24c-4ed0-8c96-0f208d16aada",
+    	"parentYn":"N",
+    	"paymentType":"010",
+    	"paymentMthCd":"010",
+    	"useCouponId":"1c18ab7f-add1-45e0-94f6-006a79289a73",
     	"payMoney":"100000",
     	"discountPrice":"50000",
-    	"payDtTpCd":"020"
+    	"payDtTpCd":"010",
+    	"appointedDt":"11"
     }
 parameters: []
 headers:
