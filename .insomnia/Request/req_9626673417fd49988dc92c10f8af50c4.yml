@@ -1,0 +1,67 @@
+_id: req_9626673417fd49988dc92c10f8af50c4
+type: Request
+parentId: fld_e3ef10b39d3f462ab42773a38b35f60f
+modified: 1633075156313
+created: 1633074922333
+url: http://192.168.0.21:8080/iset/pay/card-reg-result
+name: 결제 결과 Response
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_249a61cd76914606a319f2b45eb42be1
+      name: TR_ID
+      value: EoRk3vbpWU467f+YR8pd2mArQcbwc0lZeL6Dx08ovCI=
+      description: ""
+    - id: pair_ffd3327a5d4342edafadaf53093b0022
+      name: MID
+      value: JEMfOfhUb5DG86agE56pbQ==
+      description: ""
+    - id: pair_a81f0c9dd7284319a81b457a58252a38
+      name: PARTNER_CODE
+      value: WJ01
+      description: ""
+    - id: pair_1436a673c2904b84a8c221ce6706a425
+      name: NICE_CID
+      value: KC3DdOw8pHeguCUJDl9Z7Q==
+      description: ""
+    - id: pair_e8c18661951345909f1b045a139fd602
+      name: CARD_COMP_CODE
+      value: 7b539998f6739d2671eb54e8f6fa90ecd23c55cf3abbeb334f7d310acfb2bab82b219dc5ab4e44a3c764e8b66fc9179b8222206182cc97660351e38964d1e92a
+      description: ""
+      disabled: false
+    - id: pair_53c1a01749d743d7b07941e6f195c582
+      name: LAST_NUM
+      value: "1"
+      description: ""
+    - id: pair_0bdfbd5dddfd4409a4ad740180993823
+      name: NICK_NAME
+      value: "1"
+      description: ""
+    - id: pair_ebfcab0afccc49c9bbf0623ec346814e
+      name: TRANS_TYPE
+      value: "1"
+      description: ""
+    - id: pair_612ac5d866bb43ac89d7921f6a6afe74
+      name: OFFLINE_USE_YN
+      value: "1"
+      description: ""
+    - id: pair_f8a2c32fb83c4915a2f444d902c50b24
+      name: CARD_TYPE
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_6ab97cea735b49859c261531755ed939
+authentication: {}
+metaSortKey: -1632465567636.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
