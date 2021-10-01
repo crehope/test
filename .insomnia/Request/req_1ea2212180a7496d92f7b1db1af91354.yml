@@ -1,0 +1,47 @@
+_id: req_1ea2212180a7496d92f7b1db1af91354
+type: Request
+parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
+modified: 1633069630971
+created: 1632804976068
+url: "{{ _.local }}/clsContract/contract/afterPayment"
+name: 계약 결제후 처리
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"sendUserId":"applyUserId0928",
+    	"instId":"inst0924111",
+    	"instNm":"0928학원111",
+    	"classId":"class0928111",
+    	"classNm":"0928수학111",
+    	"tuition":"150000",
+    	"userId":"762ed248-14e5-46ae-9155-65ddc97fb90f",
+    	"userNm":"곽아가",
+    	"studentTelNo":"01076271912",
+    	"parentId":"59bec050-3bdc-42ef-8f0d-caed2b971afa",
+    	"parentNm":"곽마마",
+    	"parentTelNo":"01076271912",
+    	"paymentType":"030",
+    	"paymentMthCd":"030",
+    	"useCouponId":"ea89fee5-3ba9-4ff0-8ab6-a4a4c474f2f1",
+    	"payMoney":"100000",
+    	"discountPrice":"50000",
+    	"payDtTpCd":"020",
+    	"applyClassId":"61c04cfe-772f-4c68-9c51-4399c4855639"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_98e1fb4753054783ac2d825bf070f2f4
+authentication: {}
+metaSortKey: -1631067736679
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

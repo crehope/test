@@ -1,28 +1,22 @@
-_id: req_a678d8eed36745dc8ca99b4908c95441
+_id: req_592f14f296dd44e0906f94d66b981e0f
 type: Request
 parentId: fld_9041ebdf86834088b07f3f540d11a567
-modified: 1632814588404
-created: 1631766949234
-url: "{{ _.local }}/inst/auth-manage/create"
-name: 권한생성
+modified: 1632794545123
+created: 1632789890565
+url: "{{ _.local }}/inst/auth-manage/inst1/candidate"
+name: 권한부여대상자목록조회
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"instId" : "inst1",
-    	"authNm" : "경리",
-    	"memo" : "11"	,
-    	"authCd" : "001030#001040#001051#001061#001071"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+    id: pair_98cf63d163f24d018e916143923539e8
 authentication: {}
-metaSortKey: -1630269110067.75
+metaSortKey: -1630152240306.7969
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

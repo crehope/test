@@ -1,20 +1,17 @@
-_id: req_a678d8eed36745dc8ca99b4908c95441
+_id: req_7b04a6a7862347688be4fac575b9fa8b
 type: Request
 parentId: fld_9041ebdf86834088b07f3f540d11a567
-modified: 1632814588404
-created: 1631766949234
-url: "{{ _.local }}/inst/auth-manage/create"
-name: 권한생성
+modified: 1632808138793
+created: 1632733765070
+url: "{{ _.local }}/inst/auth-manage/delMember"
+name: 권한부여자목록-권한자해제
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"instId" : "inst1",
-    	"authNm" : "경리",
-    	"memo" : "11"	,
-    	"authCd" : "001030#001040#001051#001061#001071"
+    	"userId" : "20bb6081-6a4d-4ed3-8dd7-fad5938ee118#b7e2b4d1-e8ef-4d6c-a8c1-c8abab03106b"
     }
 parameters: []
 headers:
@@ -22,7 +19,7 @@ headers:
     value: application/json
     id: pair_a849036e7f2f4553a0e1b6da749fc9b5
 authentication: {}
-metaSortKey: -1630269110067.75
+metaSortKey: -1629463422668.5312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
