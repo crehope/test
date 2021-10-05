@@ -1,0 +1,35 @@
+_id: req_f68e1742c0ab4b948d9221deac3073c4
+type: Request
+parentId: fld_eec0ce85b7f44edd9978cbc857ab1272
+modified: 1633397712838
+created: 1633397424865
+url: "{{ _.local }}/cls/append/create"
+name: 출석(등원)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "attendCheckCd" : "009010",
+    "attendCheckId" : "1453fea6-48cf-48c1-a1fa-a6ced30ce9e9",
+    "attendCheckDt" : "",
+    "attendCheckComment" : "출석",
+    "attendInstDt" : "",
+    "leaveInstDt" : "",
+    "classId" : "testclass1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6adb8736e8004470ba890f366362d017
+authentication: {}
+metaSortKey: -1633397424865
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

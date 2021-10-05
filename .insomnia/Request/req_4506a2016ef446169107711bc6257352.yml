@@ -1,7 +1,7 @@
 _id: req_4506a2016ef446169107711bc6257352
 type: Request
 parentId: fld_e64a9599c9bd452cbaa4f0222281f35f
-modified: 1631698046723
+modified: 1633396637566
 created: 1629275918617
 url: "{{ _.local }}/cls/class-manage/addClass"
 name: 클래스 생성
@@ -31,13 +31,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\creho\Desktop\5555.png
-    - id: pair_0945463516d2433c8b632ba80f4cba38
-      name: image3
-      value: ""
-      description: ""
-      type: file
-      fileName: C:\Users\creho\Desktop\4444444444.png
+      fileName: C:\Users\creho\Desktop\4153656_h6p.jpg
 parameters: []
 headers:
   - name: Content-Type

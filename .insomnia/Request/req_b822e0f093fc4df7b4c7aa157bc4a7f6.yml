@@ -1,0 +1,21 @@
+_id: req_b822e0f093fc4df7b4c7aa157bc4a7f6
+type: Request
+parentId: fld_eec0ce85b7f44edd9978cbc857ab1272
+modified: 1633397404894
+created: 1633397387562
+url: "{{ _.local }}/cls/append/testclass1"
+name: 출석리스트
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1633397387562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

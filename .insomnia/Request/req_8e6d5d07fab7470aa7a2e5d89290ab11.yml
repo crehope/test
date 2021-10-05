@@ -1,0 +1,21 @@
+_id: req_8e6d5d07fab7470aa7a2e5d89290ab11
+type: Request
+parentId: fld_eec0ce85b7f44edd9978cbc857ab1272
+modified: 1633397380081
+created: 1633396904907
+url: "{{ _.local }}/cls/append/attend1"
+name: 출석정보
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1633396904973
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

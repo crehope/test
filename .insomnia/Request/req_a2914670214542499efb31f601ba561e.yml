@@ -1,0 +1,21 @@
+_id: req_a2914670214542499efb31f601ba561e
+type: Request
+parentId: fld_c69dfec404cb446d89b1128c5e94dff5
+modified: 1633396778672
+created: 1633396773744
+url: "{{ _.local }}/cls/download-image/?fileSaveNm=506002444666336.png&imageUnit=N"
+name: 클래스 이미지
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1628671677442.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
