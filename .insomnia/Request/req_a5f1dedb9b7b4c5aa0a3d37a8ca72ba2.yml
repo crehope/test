@@ -1,0 +1,21 @@
+_id: req_a5f1dedb9b7b4c5aa0a3d37a8ca72ba2
+type: Request
+parentId: fld_f868e7a392834597af69834ff75a370a
+modified: 1633411351720
+created: 1633411339968
+url: "{{ _.local }}/"
+name: 게시글열람
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1633411340033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

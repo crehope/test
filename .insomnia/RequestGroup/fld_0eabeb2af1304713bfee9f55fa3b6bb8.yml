@@ -1,10 +1,10 @@
 _id: fld_0eabeb2af1304713bfee9f55fa3b6bb8
 type: RequestGroup
-parentId: fld_462a2f014d9d470a982d25d4128654d6
-modified: 1631604632645
+parentId: fld_316ee06b8a864a168336be5cd9268f9b
+modified: 1633411301999
 created: 1631604623880
 name: 게시글-댓글
 description: ""
 environment: {}
 environmentPropertyOrder: null
-metaSortKey: -1630946071429
+metaSortKey: -1630976305936
