@@ -1,7 +1,7 @@
 _id: req_1ea2212180a7496d92f7b1db1af91354
 type: Request
 parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
-modified: 1633069630971
+modified: 1633073396367
 created: 1632804976068
 url: "{{ _.local }}/clsContract/contract/afterPayment"
 name: 계약 결제후 처리
@@ -25,7 +25,6 @@ body:
     	"parentTelNo":"01076271912",
     	"paymentType":"030",
     	"paymentMthCd":"030",
-    	"useCouponId":"ea89fee5-3ba9-4ff0-8ab6-a4a4c474f2f1",
     	"payMoney":"100000",
     	"discountPrice":"50000",
     	"payDtTpCd":"020",
