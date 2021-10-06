@@ -1,7 +1,7 @@
 _id: req_8bc70c0e521646e0b7e469933c0b358c
 type: Request
 parentId: fld_eaeca83408aa4fef813e0ab9b77cf723
-modified: 1632460539648
+modified: 1633070155515
 created: 1631067679858
 url: "{{ _.local }}/clsContract/clsTuition"
 name: 클래스 조회
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"instId":"inst1",
-    	"classId":"testclass2"
+    	"classId":"testclass3"
     }
 parameters: []
 headers:

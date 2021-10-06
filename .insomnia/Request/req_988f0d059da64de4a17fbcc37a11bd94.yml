@@ -1,17 +1,17 @@
-_id: req_4009706ef9924e4e8442ce38edec9870
+_id: req_988f0d059da64de4a17fbcc37a11bd94
 type: Request
-parentId: fld_3a5bda81f5c34ba280806531f75cb64f
-modified: 1633487126874
-created: 1632883234577
-url: "{{ _.local }}/cls/paid-received-manage/paid-list/testclass1/Y"
-name: 수납리스트
+parentId: fld_fb9cae8665414b869d5a7098ebec1d5e
+modified: 1633487095987
+created: 1633482177235
+url: "{{ _.local }}/inst/paid-received-manage/paid-list/inst127/Y"
+name: 수납 리스트
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1633487118393
+metaSortKey: -1633487082800
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
