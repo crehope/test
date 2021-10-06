@@ -1,9 +1,9 @@
 _id: req_f4f386bf87dd4b868820e47ba8954cba
 type: Request
 parentId: fld_a4d30b93dd90487aa9b6500965b00bb6
-modified: 1630030080275
+modified: 1633423875529
 created: 1630029266991
-url: "{{ _.local }}/users/profile/f1e7db72-d060-40df-972f-ee86ddf9b031/baseProfile"
+url: "{{ _.local }}/users/profile/1453fea6-48cf-48c1-a1fa-a6ced30ce9e9/baseProfile"
 name: api - 기본 프로필 조회
 description: ""
 method: GET

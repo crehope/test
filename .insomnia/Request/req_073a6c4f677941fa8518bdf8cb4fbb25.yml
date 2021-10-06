@@ -1,20 +1,15 @@
 _id: req_073a6c4f677941fa8518bdf8cb4fbb25
 type: Request
 parentId: fld_ab0d8fbf85294fc1991608efd6e5d7ba
-modified: 1631601640283
+modified: 1633486283798
 created: 1631599966737
 url: "{{ _.local }}/inst/apply-manage/test1/signList"
 name: 가입신청리스트
 description: 해당 학원 아이디로 클래스 목록을 조회한다
 method: GET
-body:
-  mimeType: application/json
-  text: "{}"
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_a849036e7f2f4553a0e1b6da749fc9b5
+headers: []
 authentication: {}
 metaSortKey: -1631525278462.5
 isPrivate: false
