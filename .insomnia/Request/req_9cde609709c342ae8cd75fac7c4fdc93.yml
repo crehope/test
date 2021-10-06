@@ -1,21 +1,21 @@
 _id: req_9cde609709c342ae8cd75fac7c4fdc93
 type: Request
 parentId: fld_ab0d8fbf85294fc1991608efd6e5d7ba
-modified: 1631599917141
+modified: 1633504188830
 created: 1631599883534
 url: "{{ _.local }}/inst/apply-manage/create"
-name: 가입신청(학원생신청)
+name: 가입신청(직원신청)
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"applyInviteTcCd" : "002002",
+    	"applyInviteTcCd" : "000002",
     	"instId" : "test1",
     	"userNm" : "서남풍",
     	"mobileNo" : "01011112222",
-    	"relationCd" : "001001"
+    	"relationCd" : "001030"
     }
 parameters: []
 headers:

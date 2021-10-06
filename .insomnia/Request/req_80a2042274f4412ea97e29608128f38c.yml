@@ -1,7 +1,7 @@
 _id: req_80a2042274f4412ea97e29608128f38c
 type: Request
 parentId: fld_ab0d8fbf85294fc1991608efd6e5d7ba
-modified: 1631599874883
+modified: 1633504136095
 created: 1631599680482
 url: "{{ _.local }}/inst/apply-manage/create"
 name: 가입신청(강사신청)
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"applyInviteTcCd" : "002002",
+    	"applyInviteTcCd" : "000002",
     	"instId" : "test1",
     	"userNm" : "남궁민수",
     	"mobileNo" : "01029945130",
