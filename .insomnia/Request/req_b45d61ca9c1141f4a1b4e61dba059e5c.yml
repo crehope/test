@@ -1,0 +1,21 @@
+_id: req_b45d61ca9c1141f4a1b4e61dba059e5c
+type: Request
+parentId: fld_bc331e3a7fe046d9b54f01f8277cc566
+modified: 1633504507574
+created: 1633483834125
+url: "{{ _.local }}/inst/user-manage/yeong1223/member"
+name: 학생/보호자 리스트
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1633483834125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
