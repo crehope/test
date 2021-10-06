@@ -1,0 +1,26 @@
+_id: req_b5114b3432d84d12acaa3f8712cf1387
+type: Request
+parentId: fld_c69dfec404cb446d89b1128c5e94dff5
+modified: 1633485490920
+created: 1633482969564
+url: https://kr.object.ncloudstorage.com/jv-image/inst/1698374096530200.png
+name: 학원 이미지(Object Storage)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: iam
+  disabled: false
+  accessKeyId: XRQWus30CZn8ivgiay3K
+  secretAccessKey: sMXVdBFsALuRCz1cyy1EmhiqA4qKsniXG5lbDAQS
+  sessionToken: ""
+metaSortKey: -1628671677443.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
